@@ -1,0 +1,656 @@
+>anchorPlateId 0
+>reconstructionTime 140
+>Obak1MyrInt.gpml
+>NR_0Ma_1000Ma_for_gplates.rot 1000-410_rotations-NNR.rot Global_EB_250-0Ma_GK07_2017-NNR.rot Global_EB_410-250Ma_GK07_2017-NNR.rot
+>UnclassifiedFeature <identity>GPlates-488ab2c3-4761-4985-b3ec-19e4f17772b3</identity> <revision>GPlates-a38ba497-aa2b-46e6-8f92-da50e20830d1</revision>
+> reconstructionPlateId 107
+> shapefileAttributes KeyValueDictionary ( Number,  592) ( Kimberlite,  Q1) ( Country,  Canada) ( Longitude,  -65.8038) ( Latitude,  64.7036) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  149.8)
+> description U-Th-Pb
+> name Q1
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -22.563806      38.889081
+>UnclassifiedFeature <identity>GPlates-0a012eec-b069-4acb-bdf8-246dc71eb62a</identity> <revision>GPlates-a6ad9c97-6c3d-4976-ab66-b3874e06e060</revision>
+> reconstructionPlateId 107
+> shapefileAttributes KeyValueDictionary ( Number,  593) ( Kimberlite,  CH-5) ( Country,  Canada) ( Longitude,  -66.5564) ( Latitude,  64.2552) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  149.5)
+> description U-Th-Pb
+> name CH-5
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -23.176826      38.610554
+>UnclassifiedFeature <identity>GPlates-59653cba-7d4b-497a-856f-5001c100c769</identity> <revision>GPlates-7c73983e-2ceb-45ef-ad99-9dcb03c213bf</revision>
+> reconstructionPlateId 107
+> shapefileAttributes KeyValueDictionary ( Number,  594) ( Kimberlite,  CH-33) ( Country,  Canada) ( Longitude,  -66.2336) ( Latitude,  64.378) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  149.1)
+> description U-Th-Pb
+> name CH-33
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -22.949315      38.665890
+>UnclassifiedFeature <identity>GPlates-355c0008-c7e7-49d5-b1f1-43ab8f8c702d</identity> <revision>GPlates-29ac6a0e-d181-47da-bd27-7937a63aa049</revision>
+> reconstructionPlateId 77030
+> shapefileAttributes KeyValueDictionary ( Number,  595) ( Kimberlite,  X061) ( Country,  South Africa) ( Longitude,  27.5024) ( Latitude,  -24.186) ( Geochronol,  Phlogopite) ( Geochron_1,  Ar-Ar) ( Age (recom,  149)
+> description Ar-Ar
+> name X061
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -18.999646      -55.825687
+>UnclassifiedFeature <identity>GPlates-629ebcc8-58b3-496b-9844-e7db4723ea33</identity> <revision>GPlates-ed31bc93-2298-4259-bbc3-a525858bb4bb</revision>
+> reconstructionPlateId 401
+> shapefileAttributes KeyValueDictionary ( Number,  596) ( Kimberlite,  Murun-01) ( Country,  Russia) ( Longitude,  119.089) ( Latitude,  58.3545) ( Geochronol,  Phlogopite / Biotite) ( Geochron_1,  Rb-Sr) ( Age (recom,  149)
+> description Rb-Sr
+> name Murun-01
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  65.534271      73.597488
+>UnclassifiedFeature <identity>GPlates-b60ee483-c1ab-4119-bd61-4158b193c67b</identity> <revision>GPlates-d6551873-e9b5-40da-873c-551ec68a84c0</revision>
+> reconstructionPlateId 107
+> shapefileAttributes KeyValueDictionary ( Number,  597) ( Kimberlite,  Q2) ( Country,  Canada) ( Longitude,  -65.7943) ( Latitude,  64.6635) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  148.1)
+> description U-Th-Pb
+> name Q2
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -22.579757      38.850778
+>UnclassifiedFeature <identity>GPlates-50b97c6e-8acf-4661-ab2f-5487f6fa98ce</identity> <revision>GPlates-f9c49a2b-386c-4785-ac9d-be80a87bcd1a</revision>
+> reconstructionPlateId 401
+> shapefileAttributes KeyValueDictionary ( Number,  598) ( Kimberlite,  Montichellitovaya) ( Country,  Russia) ( Longitude,  117.5) ( Latitude,  70) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  148)
+> description U-Th-Pb
+> name Montichellitovaya
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  22.818808      74.016212
+>UnclassifiedFeature <identity>GPlates-815d033a-35ef-46ba-9d34-88c9b0090d0d</identity> <revision>GPlates-ada9af0b-3eb9-4152-9ae0-0b452ed4edc8</revision>
+> reconstructionPlateId 107
+> shapefileAttributes KeyValueDictionary ( Number,  599) ( Kimberlite,  CH-37) ( Country,  Canada) ( Longitude,  -66.2036) ( Latitude,  64.3159) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  147.7)
+> description U-Th-Pb
+> name CH-37
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -22.966255      38.603861
+>UnclassifiedFeature <identity>GPlates-325e9fa0-7d48-484f-962d-812612168662</identity> <revision>GPlates-5c45b8ba-2408-4826-ac48-d3cf16427511</revision>
+> reconstructionPlateId 107
+> shapefileAttributes KeyValueDictionary ( Number,  600) ( Kimberlite,  CH-2) ( Country,  Canada) ( Longitude,  -66.3464) ( Latitude,  64.2782) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  147.5)
+> description U-Th-Pb
+> name CH-2
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -23.058314      38.594425
+>UnclassifiedFeature <identity>GPlates-2a453e2b-2774-4f97-b600-93c9f5454ddc</identity> <revision>GPlates-ea30a0ed-9ebe-43cb-865c-981feb4d8d1b</revision>
+> reconstructionPlateId 101
+> shapefileAttributes KeyValueDictionary ( Number,  601) ( Kimberlite,  Glenwood_Creek_dyke) ( Country,  USA) ( Longitude,  -76.5467) ( Latitude,  42.4936) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  147.5)
+> description U-Th-Pb
+> name Glenwood_Creek_dyke
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -36.852730      20.134712
+>UnclassifiedFeature <identity>GPlates-a88e7845-97ca-47e5-93af-9da628e35317</identity> <revision>GPlates-35825173-5105-442c-ae2a-7ffb1511f2c5</revision>
+> reconstructionPlateId 107
+> shapefileAttributes KeyValueDictionary ( Number,  602) ( Kimberlite,  CH-40) ( Country,  Canada) ( Longitude,  -66.0725) ( Latitude,  64.3278) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  147.3)
+> description U-Th-Pb
+> name CH-40
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -22.893617      38.591768
+>UnclassifiedFeature <identity>GPlates-b6d52fb2-57e5-4849-8e34-b888f91e3b43</identity> <revision>GPlates-e7cce522-4203-4ecf-8a48-d10d355f98f9</revision>
+> reconstructionPlateId 107
+> shapefileAttributes KeyValueDictionary ( Number,  603) ( Kimberlite,  CH-42) ( Country,  Canada) ( Longitude,  -66.1176) ( Latitude,  64.2576) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  147.3)
+> description U-Th-Pb
+> name CH-42
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -22.952732      38.535413
+>UnclassifiedFeature <identity>GPlates-4f89a595-895f-4e93-807c-56fd41a943c4</identity> <revision>GPlates-94cbd22b-3983-453f-9b30-195565fffb90</revision>
+> reconstructionPlateId 401
+> shapefileAttributes KeyValueDictionary ( Number,  604) ( Kimberlite,  Slyudyanka) ( Country,  Russia) ( Longitude,  120.776) ( Latitude,  70.6891) ( Geochronol,  Zircon) ( Geochron_1,  Fission Track) ( Age (recom,  147)
+> description Fission Track
+> name Slyudyanka
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  19.115234      74.854033
+>UnclassifiedFeature <identity>GPlates-9a2e00ce-0f25-4ef4-becc-7d16420e959b</identity> <revision>GPlates-082615db-2381-464b-8758-9f065d47d196</revision>
+> reconstructionPlateId 107
+> shapefileAttributes KeyValueDictionary ( Number,  605) ( Kimberlite,  CH-46) ( Country,  Canada) ( Longitude,  -66.3504) ( Latitude,  64.2377) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  146.4)
+> description U-Th-Pb
+> name CH-46
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -23.081326      38.558124
+>UnclassifiedFeature <identity>GPlates-3cad2df2-9db6-4d6c-bbf1-61b5d3d47cf9</identity> <revision>GPlates-f1c9fe5e-adf4-4f3a-a919-31ca797d3a30</revision>
+> reconstructionPlateId 107
+> shapefileAttributes KeyValueDictionary ( Number,  606) ( Kimberlite,  CH-1) ( Country,  Canada) ( Longitude,  -66.3341) ( Latitude,  64.265) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  146.3)
+> description U-Th-Pb
+> name CH-1
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -23.058870      38.580226
+>UnclassifiedFeature <identity>GPlates-d7821440-82de-45eb-899a-158fe9ba3bf3</identity> <revision>GPlates-44bbbb46-42a0-420c-8fe4-b36e0774de89</revision>
+> reconstructionPlateId 201
+> shapefileAttributes KeyValueDictionary ( Number,  607) ( Kimberlite,  Tajibo-01) ( Country,  Bolivia) ( Longitude,  -59.7788) ( Latitude,  -18.1955) ( Geochronol,  Zircon) ( Geochron_1,  U-Th-Pb) ( Age (recom,  146)
+> description U-Th-Pb
+> name Tajibo-01
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -45.039368      -31.849761
+>UnclassifiedFeature <identity>GPlates-f7ccfeb2-df29-457e-a529-958372313760</identity> <revision>GPlates-eebbe6a3-6e48-4ad8-9401-542a92bb166d</revision>
+> reconstructionPlateId 714
+> shapefileAttributes KeyValueDictionary ( Number,  608) ( Kimberlite,  Koidu_Pipe-02) ( Country,  South Africa) ( Longitude,  -10.965) ( Latitude,  8.6333) ( Geochronol,  Phlogopite) ( Geochron_1,  Ar-Ar) ( Age (recom,  146)
+> description Ar-Ar
+> name Koidu_Pipe-02
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -32.018905      -8.638197
+>UnclassifiedFeature <identity>GPlates-14854156-92d7-4574-a558-f55c8f280c9d</identity> <revision>GPlates-07767bda-a78b-4fc0-a3c6-429766307e37</revision>
+> reconstructionPlateId 77030
+> shapefileAttributes KeyValueDictionary ( Number,  609) ( Kimberlite,  Markt_Gr) ( Country,  South Africa) ( Longitude,  22.3652) ( Latitude,  -30.2555) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  146)
+> description U-Th-Pb
+> name Markt_Gr
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -32.538205      -57.332803
+>UnclassifiedFeature <identity>GPlates-2b63247b-061b-4597-b4ff-2510135425bf</identity> <revision>GPlates-3ef7b6cc-b3e8-45a5-8c2f-d18fd17b579d</revision>
+> reconstructionPlateId 101
+> shapefileAttributes KeyValueDictionary ( Number,  610) ( Kimberlite,  Cascadilla) ( Country,  USA) ( Longitude,  -76.4883) ( Latitude,  42.4442) ( Geochronol,  Whole Rock) ( Geochron_1,  K-Ar) ( Age (recom,  146)
+> description K-Ar
+> name Cascadilla
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -36.827093      20.073749
+>UnclassifiedFeature <identity>GPlates-83a68781-e945-4489-81e1-000c871e06ae</identity> <revision>GPlates-ae338e1f-49a6-4f61-8c45-4e7253b357dc</revision>
+> reconstructionPlateId 101
+> shapefileAttributes KeyValueDictionary ( Number,  611) ( Kimberlite,  Ithaca_Reservoir) ( Country,  USA) ( Longitude,  -76.453) ( Latitude,  42.4102) ( Geochronol,  Phlogopite) ( Geochron_1,  Rb-Sr) ( Age (recom,  146)
+> description Rb-Sr
+> name Ithaca_Reservoir
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -36.813039      20.032998
+>UnclassifiedFeature <identity>GPlates-71e717c8-e8c8-4775-b84e-0b5f85efea5c</identity> <revision>GPlates-24b90b7a-5eb9-406d-a5df-aac06295e61b</revision>
+> reconstructionPlateId 101
+> shapefileAttributes KeyValueDictionary ( Number,  612) ( Kimberlite,  Williams_Brook_Dyke) ( Country,  USA) ( Longitude,  -76.5239) ( Latitude,  42.4583) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  146)
+> description U-Th-Pb
+> name Williams_Brook_Dyke
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -36.848432      20.095820
+>UnclassifiedFeature <identity>GPlates-108ba588-16bb-4435-a99f-8f818b9ea689</identity> <revision>GPlates-ff77d22b-a845-4499-a997-f4accbe05ba1</revision>
+> reconstructionPlateId 101
+> shapefileAttributes KeyValueDictionary ( Number,  613) ( Kimberlite,  Garrison-01) ( Country,  Canada) ( Longitude,  -79.9528) ( Latitude,  48.4769) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  145.9)
+> description U-Th-Pb
+> name Garrison-01
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -36.978288      26.574232
+>UnclassifiedFeature <identity>GPlates-9efc3138-05a8-4c3a-a974-aff78db61377</identity> <revision>GPlates-323e397f-b225-4b13-b356-56584f4ab9cd</revision>
+> reconstructionPlateId 107
+> shapefileAttributes KeyValueDictionary ( Number,  614) ( Kimberlite,  CH-32) ( Country,  Canada) ( Longitude,  -66.1598) ( Latitude,  64.151) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  145.6)
+> description U-Th-Pb
+> name CH-32
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -23.029160      38.445259
+>UnclassifiedFeature <identity>GPlates-bd685cf5-317b-4a07-9f32-5089be71372f</identity> <revision>GPlates-ac416bc8-2819-4187-aba0-0856c590529b</revision>
+> reconstructionPlateId 107
+> shapefileAttributes KeyValueDictionary ( Number,  615) ( Kimberlite,  CH-6) ( Country,  Canada) ( Longitude,  -66.5296) ( Latitude,  64.3217) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  145.4)
+> description U-Th-Pb
+> name CH-6
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -23.128528      38.666549
+>UnclassifiedFeature <identity>GPlates-2bc44bed-63e6-47ac-b08c-0b85e5243fe8</identity> <revision>GPlates-ad9e92f9-60a3-4091-97ad-63c4fbc47006</revision>
+> reconstructionPlateId 107
+> shapefileAttributes KeyValueDictionary ( Number,  616) ( Kimberlite,  CH-7) ( Country,  Canada) ( Longitude,  -66.3538) ( Latitude,  64.2505) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  145.2)
+> description U-Th-Pb
+> name CH-7
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -23.076375      38.570480
+>UnclassifiedFeature <identity>GPlates-cb38fa24-d88d-4e35-a738-8e7ea073a189</identity> <revision>GPlates-57f33472-c715-4fac-992c-13f726e88df3</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  617) ( Kimberlite,  AC1) ( Country,  Angola) ( Longitude,  19.904) ( Latitude,  -9.877) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  145)
+> description U-Th-Pb
+> name AC1
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -15.765186      -39.932062
+>UnclassifiedFeature <identity>GPlates-30c6f14b-68a6-47e3-a19f-7415c4e60d14</identity> <revision>GPlates-005a2ad1-5da9-4787-9086-d642103de4d0</revision>
+> reconstructionPlateId 107
+> shapefileAttributes KeyValueDictionary ( Number,  618) ( Kimberlite,  CH-45) ( Country,  Canada) ( Longitude,  -66.3522) ( Latitude,  64.2424) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  144.8)
+> description U-Th-Pb
+> name CH-45
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -23.079740      38.562790
+>UnclassifiedFeature <identity>GPlates-9898d5de-8942-4cde-8a86-4ef8e6ca774d</identity> <revision>GPlates-29a18619-85dc-437d-8ea1-37e2d995ed94</revision>
+> reconstructionPlateId 107
+> shapefileAttributes KeyValueDictionary ( Number,  619) ( Kimberlite,  CH-11) ( Country,  Canada) ( Longitude,  -66.2181) ( Latitude,  64.227) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  144.5)
+> description U-Th-Pb
+> name CH-11
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -23.019608      38.525043
+>UnclassifiedFeature <identity>GPlates-6242cec3-8b62-4964-869c-292a6a5f3d99</identity> <revision>GPlates-b904326e-977f-4730-9147-d85b24ae4815</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  620) ( Kimberlite,  104X037) ( Country,  Angola) ( Longitude,  20.5643) ( Latitude,  -8.53255) ( Geochronol,  Zircon) ( Geochron_1,  U-Th-Pb) ( Age (recom,  144)
+> description U-Th-Pb
+> name 104X037
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -14.124495      -39.137460
+>UnclassifiedFeature <identity>GPlates-5d354dd8-8bda-4995-b5e4-a491efc1663a</identity> <revision>GPlates-e7ec5c07-8876-42b6-850d-110c19fac1ef</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  621) ( Kimberlite,  86X179) ( Country,  Angola) ( Longitude,  20.6725) ( Latitude,  -8.3778) ( Geochronol,  Zircon) ( Geochron_1,  U-Th-Pb) ( Age (recom,  144)
+> description U-Th-Pb
+> name 86X179
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -13.902806      -39.061340
+>UnclassifiedFeature <identity>GPlates-f961635d-e184-423f-870c-ca433c8aa4f1</identity> <revision>GPlates-319aed4d-38b1-4c11-b1c8-d7e419ecb51f</revision>
+> reconstructionPlateId 107
+> shapefileAttributes KeyValueDictionary ( Number,  622) ( Kimberlite,  CH-3) ( Country,  Canada) ( Longitude,  -66.1091) ( Latitude,  64.2206) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  143.5)
+> description U-Th-Pb
+> name CH-3
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -22.967506      38.500106
+>UnclassifiedFeature <identity>GPlates-71658d0a-1aec-404d-bef8-486cb4131c6c</identity> <revision>GPlates-41dfe09f-3a4e-49fc-a1dd-b4bc2cf2992f</revision>
+> reconstructionPlateId 107
+> shapefileAttributes KeyValueDictionary ( Number,  623) ( Kimberlite,  CH-14) ( Country,  Canada) ( Longitude,  -66.1986) ( Latitude,  64.18) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  143.4)
+> description U-Th-Pb
+> name CH-14
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -23.033948      38.478606
+>UnclassifiedFeature <identity>GPlates-a1bd9b8c-ec64-42b2-bfb5-567570bba483</identity> <revision>GPlates-6e8646f6-c818-40b1-887f-8363414eb837</revision>
+> reconstructionPlateId 107
+> shapefileAttributes KeyValueDictionary ( Number,  624) ( Kimberlite,  CH-4) ( Country,  Canada) ( Longitude,  -66.3789) ( Latitude,  64.2628) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  143.4)
+> description U-Th-Pb
+> name CH-4
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -23.082724      38.586144
+>UnclassifiedFeature <identity>GPlates-3b8b715a-158a-4d5e-980b-bfe18305c48e</identity> <revision>GPlates-85375d29-042b-4b81-9887-4fad39d133f4</revision>
+> reconstructionPlateId 107
+> shapefileAttributes KeyValueDictionary ( Number,  625) ( Kimberlite,  CH-8) ( Country,  Canada) ( Longitude,  -66.3859) ( Latitude,  64.2511) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  143.4)
+> description U-Th-Pb
+> name CH-8
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -23.092397      38.576688
+>UnclassifiedFeature <identity>GPlates-fef5f9b2-84e1-4fee-a54f-8484ddf286fe</identity> <revision>GPlates-a48289d6-ab8c-4533-8871-15e9fb844512</revision>
+> reconstructionPlateId 714
+> shapefileAttributes KeyValueDictionary ( Number,  626) ( Kimberlite,  Koidu_Pipe-01) ( Country,  South Africa) ( Longitude,  -10.9722) ( Latitude,  8.6311) ( Geochronol,  Phlogopite) ( Geochron_1,  Ar-Ar) ( Age (recom,  143)
+> description Ar-Ar
+> name Koidu_Pipe-01
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -32.026057      -8.635850
+>UnclassifiedFeature <identity>GPlates-d9aea4af-270c-4ae7-94f3-73ea9c60f727</identity> <revision>GPlates-615da89f-9a8f-4887-bf54-6ef774d60291</revision>
+> reconstructionPlateId 77030
+> shapefileAttributes KeyValueDictionary ( Number,  627) ( Kimberlite,  Melton_Wold) ( Country,  South Africa) ( Longitude,  22.7397) ( Latitude,  -31.5019) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  143)
+> description U-Th-Pb
+> name Melton_Wold
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -33.831406      -58.420963
+>UnclassifiedFeature <identity>GPlates-a9457268-31ba-4a02-9b44-2c7ec3794f7b</identity> <revision>GPlates-a3e9619e-f88e-4dcc-a647-de7c7db3e196</revision>
+> reconstructionPlateId 101
+> shapefileAttributes KeyValueDictionary ( Number,  628) ( Kimberlite,  BKC31) ( Country,  Canada) ( Longitude,  -79.7585) ( Latitude,  47.4898) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  141.9)
+> description U-Th-Pb
+> name BKC31
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -37.252125      25.609435
+>UnclassifiedFeature <identity>GPlates-72d50ae4-992a-4162-be54-62a8a73bbab2</identity> <revision>GPlates-bb91bc2f-3e82-4d05-b6a9-2cf75d487fca</revision>
+> reconstructionPlateId 107
+> shapefileAttributes KeyValueDictionary ( Number,  629) ( Kimberlite,  CH-21) ( Country,  Canada) ( Longitude,  -66.2034) ( Latitude,  64.163) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  141.4)
+> description U-Th-Pb
+> name CH-21
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -23.045133      38.463993
+>UnclassifiedFeature <identity>GPlates-e6299fdd-f9a3-441b-bf58-22b50969f29b</identity> <revision>GPlates-6dfe5fe6-82ae-4f01-91a6-8db333b8be83</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  630) ( Kimberlite,  86X371) ( Country,  Angola) ( Longitude,  20.9977) ( Latitude,  -8.46313) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  141)
+> description U-Th-Pb
+> name 86X371
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -13.605639      -39.301552
+>UnclassifiedFeature <identity>GPlates-be47091e-2f19-488d-974b-0bfe8979777f</identity> <revision>GPlates-db83c740-f3d0-407b-a632-197f05f054f1</revision>
+> reconstructionPlateId 101
+> shapefileAttributes KeyValueDictionary ( Number,  631) ( Kimberlite,  Ludlowville_Dykes) ( Country,  USA) ( Longitude,  -76.535) ( Latitude,  42.5522) ( Geochronol,  Phlogopite / Biotite) ( Geochron_1,  Rb-Sr) ( Age (recom,  141)
+> description Rb-Sr
+> name Ludlowville_Dykes
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -36.823179      20.187045
+>UnclassifiedFeature <identity>GPlates-d257640a-f151-4a81-9808-2f702e3d5c82</identity> <revision>GPlates-18e08eec-19a0-4aba-8c06-991ced474f06</revision>
+> reconstructionPlateId 101
+> shapefileAttributes KeyValueDictionary ( Number,  632) ( Kimberlite,  Ile_Bizard-01) ( Country,  Canada) ( Longitude,  -73.909) ( Latitude,  45.5063) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  140)
+> description U-Th-Pb
+> name Ile_Bizard-01
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -33.868251      22.356698
+>UnclassifiedFeature <identity>GPlates-67c7ff16-1030-472c-b123-5c31672bc210</identity> <revision>GPlates-8a6f4c26-fa03-4b74-8a4f-e48ad3c267af</revision>
+> reconstructionPlateId 77030
+> shapefileAttributes KeyValueDictionary ( Number,  633) ( Kimberlite,  Skietkop) ( Country,  South Africa) ( Longitude,  22.8072) ( Latitude,  -31.4992) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  140)
+> description U-Th-Pb
+> name Skietkop
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -33.753149      -58.461486
+>UnclassifiedFeature <identity>GPlates-4352e9a9-8a0f-4a0e-b2e1-40af987b363e</identity> <revision>GPlates-402bff7b-a71d-454d-ae7a-dbaa2529520d</revision>
+> reconstructionPlateId 714
+> shapefileAttributes KeyValueDictionary ( Number,  634) ( Kimberlite,  Tongu_Panguma_Dykes) ( Country,  South Africa) ( Longitude,  -11.0833) ( Latitude,  8.2167) ( Geochronol,  Phlogopite) ( Geochron_1,  K-Ar) ( Age (recom,  140)
+> description K-Ar
+> name Tongu_Panguma_Dykes
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -32.360413      -8.909003
+>UnclassifiedFeature <identity>GPlates-8454f796-671a-4181-927f-11ecd4870462</identity> <revision>GPlates-fdd01144-5675-41c5-bdf9-dda892fb548f</revision>
+> reconstructionPlateId 101
+> shapefileAttributes KeyValueDictionary ( Number,  635) ( Kimberlite,  Frontegnac_Creek_Dykes) ( Country,  USA) ( Longitude,  -76.6367) ( Latitude,  42.55) ( Geochronol,  Whole Rock) ( Geochron_1,  K-Ar) ( Age (recom,  140)
+> description K-Ar
+> name Frontegnac_Creek_Dykes
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -36.899178      20.210078
+>UnclassifiedFeature <identity>GPlates-e3093226-daff-4e1d-b6b5-2e91796fe1ec</identity> <revision>GPlates-de52ee82-5cca-487c-92a2-6a9ca7c6fd08</revision>
+> reconstructionPlateId 713
+> shapefileAttributes KeyValueDictionary ( Number,  636) ( Kimberlite,  TX3) ( Country,  Mozambique) ( Longitude,  35.0206) ( Latitude,  -12.5583) ( Geochronol,  Phlogopite) ( Geochron_1,  Rb-Sr) ( Age (recom,  139.7)
+> description Rb-Sr
+> name TX3
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+   0.869109      -49.344118
+>UnclassifiedFeature <identity>GPlates-58c599e3-4e28-41fb-8ce1-1e0907d240a2</identity> <revision>GPlates-0d3f6e07-5f15-41e5-955a-ab58f85b16a6</revision>
+> reconstructionPlateId 713
+> shapefileAttributes KeyValueDictionary ( Number,  637) ( Kimberlite,  TX3) ( Country,  Mozambique) ( Longitude,  35.0202) ( Latitude,  -12.5581) ( Geochronol,  Phlogopite) ( Geochron_1,  Rb-Sr) ( Age (recom,  139.2)
+> description Rb-Sr
+> name TX3
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+   0.868710      -49.343722
+>UnclassifiedFeature <identity>GPlates-209020b6-371a-494f-b26c-1e1771ea5957</identity> <revision>GPlates-1ae56266-faf6-415f-8c53-ea808df2da91</revision>
+> reconstructionPlateId 107
+> shapefileAttributes KeyValueDictionary ( Number,  638) ( Kimberlite,  CH-43) ( Country,  Canada) ( Longitude,  -66.1976) ( Latitude,  64.1849) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  139.1)
+> description U-Th-Pb
+> name CH-43
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -23.030936      38.482931
+>UnclassifiedFeature <identity>GPlates-48841b89-f69c-4600-a25e-88704ee15308</identity> <revision>GPlates-3ea1d188-e81c-43d4-b043-67597fe5c7ec</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  639) ( Kimberlite,  Catoca) ( Country,  Angola) ( Longitude,  20.3022) ( Latitude,  -9.4039) ( Geochronol,  Zircon) ( Geochron_1,  U-Th-Pb) ( Age (recom,  139)
+> description U-Th-Pb
+> name Catoca
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -15.003961      -39.741605
+>UnclassifiedFeature <identity>GPlates-f1ebdd11-20a0-4486-bd12-51bb8a5dfe70</identity> <revision>GPlates-afed203c-9ac8-4fea-9a02-68d4943a89df</revision>
+> reconstructionPlateId 22054
+> shapefileAttributes KeyValueDictionary ( Number,  640) ( Kimberlite,  Moana-02) ( Country,  Brazil) ( Longitude,  -41.8102) ( Latitude,  -6.8833) ( Geochronol,  Phlogopite) ( Geochron_1,  Rb-Sr) ( Age (recom,  139)
+> description Rb-Sr
+> name Moana-02
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -24.530964      -21.770969
+>UnclassifiedFeature <identity>GPlates-31fd5901-3dfb-41e5-87b5-92be660453d5</identity> <revision>GPlates-a17178c0-84d4-4307-86ea-503bee197373</revision>
+> reconstructionPlateId 714
+> shapefileAttributes KeyValueDictionary ( Number,  641) ( Kimberlite,  Banankoro-11) ( Country,  Guinea) ( Longitude,  -9.3133) ( Latitude,  9.168) ( Geochronol,  Phlogopite) ( Geochron_1,  Ar-Ar) ( Age (recom,  139)
+> description Ar-Ar
+> name Banankoro-11
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -30.358003      -9.144171
+>UnclassifiedFeature <identity>GPlates-2dc33f5e-bf0f-4b2d-af90-0c79d5025915</identity> <revision>GPlates-4e750daa-ed8b-4e17-917c-c69059c506ae</revision>
+> reconstructionPlateId 77030
+> shapefileAttributes KeyValueDictionary ( Number,  642) ( Kimberlite,  Taaiboschkuil) ( Country,  South Africa) ( Longitude,  26.5544) ( Latitude,  -25.1767) ( Geochronol,  Phlogopite / Biotite) ( Geochron_1,  Ar-Ar) ( Age (recom,  139)
+> description Ar-Ar
+> name Taaiboschkuil
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -21.300719      -56.078278
+>UnclassifiedFeature <identity>GPlates-c0978b4f-15c7-411a-9605-bb64e86cac1e</identity> <revision>GPlates-25a7337c-d5f8-4d45-a319-4e5fec7268a4</revision>
+> reconstructionPlateId 101
+> shapefileAttributes KeyValueDictionary ( Number,  643) ( Kimberlite,  Opap) ( Country,  Canada) ( Longitude,  -79.7419) ( Latitude,  47.4606) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  138.8)
+> description U-Th-Pb
+> name Opap
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -37.252482      25.578143
+>UnclassifiedFeature <identity>GPlates-3c5fa540-1026-4c80-bf61-cd402f418fcd</identity> <revision>GPlates-01203438-7264-46b0-936c-4584018e96fc</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  644) ( Kimberlite,  86X179) ( Country,  Angola) ( Longitude,  20.6725) ( Latitude,  -8.3778) ( Geochronol,  Zircon) ( Geochron_1,  U-Th-Pb) ( Age (recom,  138.5)
+> description U-Th-Pb
+> name 86X179
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -13.902806      -39.061340
+>UnclassifiedFeature <identity>GPlates-621c5c1a-b76d-444c-9d9a-8be087e5b7c4</identity> <revision>GPlates-a0f525c6-af4b-4897-b26c-dce08bf14e86</revision>
+> reconstructionPlateId 107
+> shapefileAttributes KeyValueDictionary ( Number,  645) ( Kimberlite,  CH-15) ( Country,  Canada) ( Longitude,  -66.202) ( Latitude,  64.1819) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  138.4)
+> description U-Th-Pb
+> name CH-15
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -23.034687      38.481017
+>UnclassifiedFeature <identity>GPlates-7ce27a79-77b9-4e2d-8225-0fc19699fb1b</identity> <revision>GPlates-0c9e66d6-d05c-40a4-9d01-661997f390d0</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  646) ( Kimberlite,  121X015) ( Country,  Angola) ( Longitude,  20.3702) ( Latitude,  -9.4193) ( Geochronol,  Zircon) ( Geochron_1,  U-Th-Pb) ( Age (recom,  138)
+> description U-Th-Pb
+> name 121X015
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -14.940611      -39.790249
+>UnclassifiedFeature <identity>GPlates-2ba88f08-3ec3-404f-8dee-d4c678c6e6ac</identity> <revision>GPlates-24845abe-77fc-477e-9528-fefd6c6e7092</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  647) ( Kimberlite,  86X059) ( Country,  Angola) ( Longitude,  20.6893) ( Latitude,  -8.374) ( Geochronol,  Zircon) ( Geochron_1,  U-Th-Pb) ( Age (recom,  138)
+> description U-Th-Pb
+> name 86X059
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -13.881986      -39.066759
+>UnclassifiedFeature <identity>GPlates-9b4a3d5f-6513-4186-8a42-3b535e5caef6</identity> <revision>GPlates-c4bd0986-e2a0-444d-9156-5ea517ba1594</revision>
+> reconstructionPlateId 77030
+> shapefileAttributes KeyValueDictionary ( Number,  648) ( Kimberlite,  Syferfontein) ( Country,  South Africa) ( Longitude,  26.5005) ( Latitude,  -25.8122) ( Geochronol,  Phlogopite / Biotite) ( Geochron_1,  Rb-Sr) ( Age (recom,  138)
+> description Rb-Sr
+> name Syferfontein
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -22.089487      -56.541750
+>UnclassifiedFeature <identity>GPlates-07f85134-2531-44aa-bc94-dc09e53aaa1f</identity> <revision>GPlates-efc9c0b2-bcb9-4f06-b126-cb2f7888f138</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  649) ( Kimberlite,  86X281) ( Country,  Angola) ( Longitude,  20.5624) ( Latitude,  -8.26351) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  137)
+> description U-Th-Pb
+> name 86X281
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -13.945713      -38.907037
+>UnclassifiedFeature <identity>GPlates-c537e06c-0923-4d75-b7ba-2de7daee66a8</identity> <revision>GPlates-fb257a7b-9a87-4dbe-9319-830b994f90a6</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  650) ( Kimberlite,  86X017) ( Country,  Angola) ( Longitude,  20.6786) ( Latitude,  -8.3775) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  136)
+> description U-Th-Pb
+> name 86X017
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -13.895972      -39.064229
+>UnclassifiedFeature <identity>GPlates-6850fb6f-648c-4c17-a29a-e45f591cbb53</identity> <revision>GPlates-debdff06-3a1c-4583-b262-4a6041cc1e85</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  651) ( Kimberlite,  86X129) ( Country,  Angola) ( Longitude,  20.7682) ( Latitude,  -8.345) ( Geochronol,  Zircon) ( Geochron_1,  U-Th-Pb) ( Age (recom,  136)
+> description U-Th-Pb
+> name 86X129
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -13.776688      -39.082643
+>UnclassifiedFeature <identity>GPlates-1e34698b-a6e0-4839-9516-1c99426fecd3</identity> <revision>GPlates-bd315d0f-2f03-4807-b857-7ea369b1ff6b</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  652) ( Kimberlite,  AC139) ( Country,  Angola) ( Longitude,  19.943) ( Latitude,  -9.91) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  136)
+> description U-Th-Pb
+> name AC139
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -15.746017      -39.980531
+>UnclassifiedFeature <identity>GPlates-4f3b646c-4570-47f9-b80f-c181174ba212</identity> <revision>GPlates-45817cf5-5a69-4285-9dcc-edf5bc47bf5f</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  653) ( Kimberlite,  Nova_Lisboa-01) ( Country,  Angola) ( Longitude,  15.7728) ( Latitude,  -12.3431) ( Geochronol,  Zircon) ( Geochron_1,  U-Th-Pb) ( Age (recom,  136)
+> description U-Th-Pb
+> name Nova_Lisboa-01
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -21.936518      -39.703739
+>UnclassifiedFeature <identity>GPlates-a09a013e-4bfc-4cab-a385-8f91243f0f41</identity> <revision>GPlates-9ac22b1a-692e-444e-b41b-1944d4be5f50</revision>
+> reconstructionPlateId 77030
+> shapefileAttributes KeyValueDictionary ( Number,  654) ( Kimberlite,  Rietfontein) ( Country,  South Africa) ( Longitude,  26.8361) ( Latitude,  -26.7417) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  135.3)
+> description U-Th-Pb
+> name Rietfontein
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -22.752760      -57.449502
+>UnclassifiedFeature <identity>GPlates-97dc48bb-4986-46dc-b2b2-d2a710c6c202</identity> <revision>GPlates-e507c99c-a76c-4beb-8ea2-59492f75b80c</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  655) ( Kimberlite,  121X007) ( Country,  Angola) ( Longitude,  20.3771) ( Latitude,  -9.4063) ( Geochronol,  Zircon) ( Geochron_1,  U-Th-Pb) ( Age (recom,  135)
+> description U-Th-Pb
+> name 121X007
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -14.924130      -39.782837
+>UnclassifiedFeature <identity>GPlates-de6eadfe-bd31-4e57-bf58-6c8294026fd8</identity> <revision>GPlates-d7926b27-ca32-40d9-b2f1-f703172667c6</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  656) ( Kimberlite,  86X114) ( Country,  Angola) ( Longitude,  20.6458) ( Latitude,  -8.2166) ( Geochronol,  Zircon) ( Geochron_1,  U-Th-Pb) ( Age (recom,  135)
+> description U-Th-Pb
+> name 86X114
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -13.823811      -38.909969
+>UnclassifiedFeature <identity>GPlates-e527af91-4433-4113-a55d-e001626713cf</identity> <revision>GPlates-f4e9ea29-24cf-451c-bb46-e08ed5372f40</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  657) ( Kimberlite,  86X157) ( Country,  Angola) ( Longitude,  20.7478) ( Latitude,  -8.4007) ( Geochronol,  Zircon) ( Geochron_1,  U-Th-Pb) ( Age (recom,  135)
+> description U-Th-Pb
+> name 86X157
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -13.836254      -39.119698
+>UnclassifiedFeature <identity>GPlates-18eb0fdc-f28f-47b7-ad1f-2f9cba140894</identity> <revision>GPlates-b9a86e4c-00a1-4599-b91b-65eb1861141d</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  658) ( Kimberlite,  Camutue_West) ( Country,  Angola) ( Longitude,  20.8104) ( Latitude,  -8.4266) ( Geochronol,  Kelyphite after Garnet) ( Geochron_1,  Ar-Ar) ( Age (recom,  135)
+> description Ar-Ar
+> name Camutue_West
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -13.785464      -39.174050
+>UnclassifiedFeature <identity>GPlates-7048c9f2-7998-49d8-a7ea-3fa224533f38</identity> <revision>GPlates-d9d87c6f-ac26-4fdf-957e-8cbbd43a636a</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  659) ( Kimberlite,  86X311) ( Country,  Angola) ( Longitude,  20.524) ( Latitude,  -8.27775) ( Geochronol,  Zircon) ( Geochron_1,  U-Th-Pb) ( Age (recom,  134.9)
+> description U-Th-Pb
+> name 86X311
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -13.996985      -38.899335
+>UnclassifiedFeature <identity>GPlates-bfa1706e-2275-41e4-b0d4-2cd3a6669b53</identity> <revision>GPlates-1e843c3c-9538-41ff-ae85-1ce29b4827bf</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  660) ( Kimberlite,  86X005) ( Country,  Angola) ( Longitude,  20.7781) ( Latitude,  -8.1944) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  134)
+> description U-Th-Pb
+> name 86X005
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -13.665134      -38.959089
+>UnclassifiedFeature <identity>GPlates-456ea727-ee54-4e3c-9001-d64bbeee1fc9</identity> <revision>GPlates-886d42ed-450f-4e27-98b2-a12468774e0a</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  661) ( Kimberlite,  86X104) ( Country,  Angola) ( Longitude,  20.5853) ( Latitude,  -8.1464) ( Geochronol,  Zircon) ( Geochron_1,  U-Th-Pb) ( Age (recom,  134)
+> description U-Th-Pb
+> name 86X104
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -13.842560      -38.818859
+>UnclassifiedFeature <identity>GPlates-3b7ebaf0-9790-4cc2-88d1-a3be01d17e49</identity> <revision>GPlates-63905734-bc79-4da8-87db-18bf90dbb748</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  662) ( Kimberlite,  86X319) ( Country,  Angola) ( Longitude,  20.6975) ( Latitude,  -8.36653) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  134)
+> description U-Th-Pb
+> name 86X319
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -13.868098      -39.064589
+>UnclassifiedFeature <identity>GPlates-ee8ecf95-8720-4e8c-865a-e64d539b188b</identity> <revision>GPlates-b6e11f48-417a-4eac-a236-663592198c4d</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  663) ( Kimberlite,  Nova_Lisboa-17) ( Country,  Angola) ( Longitude,  15.8292) ( Latitude,  -12.5667) ( Geochronol,  Zircon) ( Geochron_1,  U-Th-Pb) ( Age (recom,  134)
+> description U-Th-Pb
+> name Nova_Lisboa-17
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -22.048018      -39.917467
+>UnclassifiedFeature <identity>GPlates-19a10376-f3bb-411d-8239-d1856407789a</identity> <revision>GPlates-31630d45-6d72-4090-bd71-3998f8c26727</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  664) ( Kimberlite,  Val_Do_Queve) ( Country,  Angola) ( Longitude,  15.8333) ( Latitude,  -12.5667) ( Geochronol,  Zircon) ( Geochron_1,  U-Th-Pb) ( Age (recom,  134)
+> description U-Th-Pb
+> name Val_Do_Queve
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -22.043747      -39.919822
+>UnclassifiedFeature <identity>GPlates-66ba6e18-96ee-4aa0-893d-3c92d84b06e5</identity> <revision>GPlates-63e4cd9d-7aae-46fd-8c0a-d33781332a19</revision>
+> reconstructionPlateId 101
+> shapefileAttributes KeyValueDictionary ( Number,  665) ( Kimberlite,  Glinkers) ( Country,  Canada) ( Longitude,  -79.79) ( Latitude,  47.4674) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  133.9)
+> description U-Th-Pb
+> name Glinkers
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -37.283207      25.596461
+>UnclassifiedFeature <identity>GPlates-6bf874cd-b27f-4c4d-a7f0-60cd3ad01df2</identity> <revision>GPlates-3ac6086e-aaab-4e14-b5c9-96249fa73f9b</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  666) ( Kimberlite,  86X078) ( Country,  Angola) ( Longitude,  20.6423) ( Latitude,  -8.223) ( Geochronol,  Zircon) ( Geochron_1,  U-Th-Pb) ( Age (recom,  133.6)
+> description U-Th-Pb
+> name 86X078
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -13.831893      -38.913631
+>UnclassifiedFeature <identity>GPlates-8fe9e892-6cda-4908-bb87-245872ac1ab8</identity> <revision>GPlates-80e51f70-fd15-4c58-b7ac-1c3ce487cc88</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  667) ( Kimberlite,  86X311) ( Country,  Angola) ( Longitude,  20.524) ( Latitude,  -8.27775) ( Geochronol,  Zircon) ( Geochron_1,  U-Th-Pb) ( Age (recom,  133.5)
+> description U-Th-Pb
+> name 86X311
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -13.996985      -38.899335
+>UnclassifiedFeature <identity>GPlates-9c2c3c94-7723-43fc-8d7f-b96f5c775289</identity> <revision>GPlates-66cd2e0d-511c-47db-8ecf-86a570e4ca87</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  668) ( Kimberlite,  86X014) ( Country,  Angola) ( Longitude,  20.6617) ( Latitude,  -8.3499) ( Geochronol,  Zircon) ( Geochron_1,  U-Th-Pb) ( Age (recom,  133.2)
+> description U-Th-Pb
+> name 86X014
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -13.895825      -39.031960
+>UnclassifiedFeature <identity>GPlates-d4833f59-8e7d-410a-bc61-c461edb35fe0</identity> <revision>GPlates-4a883961-d835-45b5-97e6-b304131fb2a3</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  669) ( Kimberlite,  86X059) ( Country,  Angola) ( Longitude,  20.6893) ( Latitude,  -8.374) ( Geochronol,  Zircon) ( Geochron_1,  U-Th-Pb) ( Age (recom,  133)
+> description U-Th-Pb
+> name 86X059
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -13.881986      -39.066759
+>UnclassifiedFeature <identity>GPlates-e7831dd1-ef07-4d1b-99e7-e6d5457f7ff1</identity> <revision>GPlates-dad8374c-16eb-448f-93ac-4bb2679f7240</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  670) ( Kimberlite,  86X102) ( Country,  Angola) ( Longitude,  20.6494) ( Latitude,  -8.2397) ( Geochronol,  Zircon) ( Geochron_1,  U-Th-Pb) ( Age (recom,  133)
+> description U-Th-Pb
+> name 86X102
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -13.835354      -38.931548
+>UnclassifiedFeature <identity>GPlates-c32b1c5c-2493-4497-9292-903b61bf4f69</identity> <revision>GPlates-ac0bdf54-eef0-4b4e-ad91-375ef11aa7db</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  671) ( Kimberlite,  86X338) ( Country,  Angola) ( Longitude,  20.7801) ( Latitude,  -8.19386) ( Geochronol,  Zircon) ( Geochron_1,  U-Th-Pb) ( Age (recom,  133)
+> description U-Th-Pb
+> name 86X338
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -13.662618      -38.959645
+>UnclassifiedFeature <identity>GPlates-0c8c252c-d5b7-4bbb-a4c3-953b753cea91</identity> <revision>GPlates-841d0aac-448f-4ef2-85d7-f032eb3e7a6a</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  672) ( Kimberlite,  Caixepa) ( Country,  Angola) ( Longitude,  20.8214) ( Latitude,  -8.4118) ( Geochronol,  Phlogopite / Biotite) ( Geochron_1,  Rb-Sr) ( Age (recom,  133)
+> description Rb-Sr
+> name Caixepa
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -13.763545      -39.167073
+>UnclassifiedFeature <identity>GPlates-c05a05f6-b26e-4844-a4b2-0388f6399814</identity> <revision>GPlates-9e8624f0-d2ce-49bd-8567-2117d82a111d</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  673) ( Kimberlite,  Catoca) ( Country,  Angola) ( Longitude,  20.3022) ( Latitude,  -9.4039) ( Geochronol,  Phlogopite / Biotite) ( Geochron_1,  Rb-Sr) ( Age (recom,  133)
+> description Rb-Sr
+> name Catoca
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -15.003961      -39.741605
+>UnclassifiedFeature <identity>GPlates-6dde427c-f907-4864-b67e-a1c66669faff</identity> <revision>GPlates-d357be32-6be7-4906-803e-05a9b0196e23</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  674) ( Kimberlite,  Nova_Lisboa-01) ( Country,  Angola) ( Longitude,  15.7728) ( Latitude,  -12.3431) ( Geochronol,  Zircon) ( Geochron_1,  Fission Track) ( Age (recom,  133)
+> description Fission Track
+> name Nova_Lisboa-01
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -21.936518      -39.703739
+>UnclassifiedFeature <identity>GPlates-594d07c6-acdf-48f5-a4bc-7f523fe48e30</identity> <revision>GPlates-bb3f5329-e45f-4092-8186-427bde10095d</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  675) ( Kimberlite,  104X083) ( Country,  Angola) ( Longitude,  20.5588) ( Latitude,  -8.53571) ( Geochronol,  Zircon) ( Geochron_1,  U-Th-Pb) ( Age (recom,  132.1)
+> description U-Th-Pb
+> name 104X083
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -14.132679      -39.137264
+>UnclassifiedFeature <identity>GPlates-af06343a-26d7-4233-b290-27157089ec77</identity> <revision>GPlates-df1afe98-b7f0-44fe-8e5f-d791fee5afb5</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  676) ( Kimberlite,  86X042) ( Country,  Angola) ( Longitude,  20.9801) ( Latitude,  -8.45747) ( Geochronol,  Perovskite) ( Geochron_1,  U-Th-Pb) ( Age (recom,  132)
+> description U-Th-Pb
+> name 86X042
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -13.621013      -39.287702
+>UnclassifiedFeature <identity>GPlates-1ebb9e05-2c44-4c4b-83d8-4e9667bb3269</identity> <revision>GPlates-b3ca2e47-a453-453b-bd64-3e47463c2c79</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  677) ( Kimberlite,  86X177) ( Country,  Angola) ( Longitude,  20.6792) ( Latitude,  -8.2275) ( Geochronol,  Zircon) ( Geochron_1,  U-Th-Pb) ( Age (recom,  132)
+> description U-Th-Pb
+> name 86X177
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -13.794816      -38.936478
+>UnclassifiedFeature <identity>GPlates-d79c3ea1-e123-4083-8b49-3d704af9654b</identity> <revision>GPlates-05861459-4aa3-4d5b-9328-bfdb71740818</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  678) ( Kimberlite,  86X017) ( Country,  Angola) ( Longitude,  20.6786) ( Latitude,  -8.3775) ( Geochronol,  Zircon) ( Geochron_1,  U-Th-Pb) ( Age (recom,  131.4)
+> description U-Th-Pb
+> name 86X017
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -13.895972      -39.064229
+>UnclassifiedFeature <identity>GPlates-21e1daf9-2e14-49f9-a723-b5dcf2997983</identity> <revision>GPlates-a2f72885-87b8-43e6-afba-80aec496c8fb</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  679) ( Kimberlite,  86X314) ( Country,  Angola) ( Longitude,  20.7117) ( Latitude,  -8.37112) ( Geochronol,  Zircon) ( Geochron_1,  U-Th-Pb) ( Age (recom,  131.2)
+> description U-Th-Pb
+> name 86X314
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -13.855683      -39.075847
+>UnclassifiedFeature <identity>GPlates-a1f2fb95-e6e0-46eb-b0ed-755d6c86374f</identity> <revision>GPlates-6114d331-433b-4adb-853a-5f0bba0c221e</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  680) ( Kimberlite,  103X014) ( Country,  Angola) ( Longitude,  20.4514) ( Latitude,  -8.55687) ( Geochronol,  Zircon) ( Geochron_1,  U-Th-Pb) ( Age (recom,  131)
+> description U-Th-Pb
+> name 103X014
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -14.263589      -39.099682
+>UnclassifiedFeature <identity>GPlates-f65359ea-350d-44f8-905b-dab1d605c111</identity> <revision>GPlates-b739eb32-ff29-48f9-95d5-470bfd8d9a1b</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  681) ( Kimberlite,  121X005) ( Country,  Angola) ( Longitude,  20.2999) ( Latitude,  -9.4175) ( Geochronol,  Phlogopite) ( Geochron_1,  Ar-Ar) ( Age (recom,  131)
+> description Ar-Ar
+> name 121X005
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -15.015851      -39.751926
+>UnclassifiedFeature <identity>GPlates-fa9e557b-fe26-49a4-8fe3-f7f5a7a3d1da</identity> <revision>GPlates-b5813431-90c6-4414-ab7f-887004932772</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  682) ( Kimberlite,  86X060) ( Country,  Angola) ( Longitude,  20.7048) ( Latitude,  -8.3671) ( Geochronol,  Zircon) ( Geochron_1,  U-Th-Pb) ( Age (recom,  130)
+> description U-Th-Pb
+> name 86X060
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -13.860497      -39.068858
+>UnclassifiedFeature <identity>GPlates-240793dd-cac3-4cf9-a713-21d56e4c89be</identity> <revision>GPlates-84337bdb-6c8a-4b0d-b8dc-75f145b361f1</revision>
+> reconstructionPlateId 701
+> shapefileAttributes KeyValueDictionary ( Number,  683) ( Kimberlite,  86X075) ( Country,  Angola) ( Longitude,  20.636) ( Latitude,  -8.3535) ( Geochronol,  Kelyphite after Garnet) ( Geochron_1,  Ar-Ar) ( Age (recom,  130)
+> description Ar-Ar
+> name 86X075
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -13.926174      -39.021778
+>UnclassifiedFeature <identity>GPlates-7ff825d5-519d-4260-b1ba-e3cbe627287e</identity> <revision>GPlates-3ab3feec-4518-4cfb-b0d7-a48eb13563bd</revision>
+> reconstructionPlateId 101
+> shapefileAttributes KeyValueDictionary ( Number,  684) ( Kimberlite,  De_Wit_Dyke) ( Country,  USA) ( Longitude,  -76.0733) ( Latitude,  42.9744) ( Geochronol,  Whole Rock) ( Geochron_1,  K-Ar) ( Age (recom,  130)
+> description K-Ar
+> name De_Wit_Dyke
+> validTime TimePeriod <begin> TimeInstant <timePosition>140</timePosition></begin> <end> TimeInstant <timePosition>140</timePosition></end>
+  -36.332214      20.471994
+>
