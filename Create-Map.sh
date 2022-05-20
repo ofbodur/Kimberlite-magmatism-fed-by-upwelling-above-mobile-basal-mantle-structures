@@ -1,70 +1,59 @@
 #!/bin/bash
-region = g
-proj_map = N0/12
 
-CaseNumber = 1 # Select the case number
-CurrentDirectory = !pwd
+region=g
+proj_map=N0/12
 
+CaseNumber=4 # Select the case number
 
 if [ $CaseNumber -eq 1 ]
 then 
-	# Case1Dir=/Users/omer/Documents/Programming/PyGplates/ForPublication/Case1/
-	CaseDir=${CurrentDirectory}/Case1
-	# Case1OutputDir=/Users/omer/Documents/Programming/PyGplates/ForPublication/Output-Case1/
-	CaseOutputDir=${CurrentDirectory}/Output-Case1
-	AgeGridDir=${CurrentDirectory}/Agegrid-M21-NNR
-	CratonicShapes=${CurrentDirectory}/Cratonic-Shapes-M21-NNR
-	root_for_Kimb_Data=${CurrentDirectory}/Kimberlites/M21-NNR
+	CaseDir="$PWD"/Case1
+	CaseOutputDir="$PWD"/Output-Case1
+	AgeGridDir="$PWD"/Agegrid-M21-NNR
+	CratonicShapes="$PWD"/Cratonic-Shapes-M21-NNR
+	root_for_Kimb_Data="$PWD"/Kimberlites/M21-NNR
 	
 	
-elif [$CaseNumber -eq 2 ]
+elif [ $CaseNumber -eq 2 ]
 then
-	# Case1Dir=/Users/omer/Documents/Programming/PyGplates/ForPublication/Case1/
-	CaseDir=${CurrentDirectory}/Case2
-	# Case1OutputDir=/Users/omer/Documents/Programming/PyGplates/ForPublication/Output-Case1/
-	CaseOutputDir=${CurrentDirectory}/Output-Case2
-	AgeGridDir=${CurrentDirectory}/Agegrid-M21-NNR
-	CratonicShapes=${CurrentDirectory}/Cratonic-Shapes-M21-NNR
-	root_for_Kimb_Data=${CurrentDirectory}/Kimberlites/M21-NNR
+	CaseDir="$PWD"/Case2
+	CaseOutputDir="$PWD"/Output-Case2
+	AgeGridDir="$PWD"/Agegrid-M21-NNR
+	CratonicShapes="$PWD"/Cratonic-Shapes-M21-NNR
+	root_for_Kimb_Data="$PWD"/Kimberlites/M21-NNR
 	
-elif [$CaseNumber -eq 3 ]
+elif [ $CaseNumber -eq 3 ]
 then
-	# Case1Dir=/Users/omer/Documents/Programming/PyGplates/ForPublication/Case1/
-	CaseDir=${CurrentDirectory}/Case3
-	# Case1OutputDir=/Users/omer/Documents/Programming/PyGplates/ForPublication/Output-Case1/
-	CaseOutputDir=${CurrentDirectory}/Output-Case3
-	AgeGridDir=${CurrentDirectory}/Agegrid-M21-NNR
-	CratonicShapes=${CurrentDirectory}/Cratonic-Shapes-M21-NNR
-	root_for_Kimb_Data=${CurrentDirectory}/Kimberlites/M21-NNR
+	CaseDir="$PWD"/Case3
+	CaseOutputDir="$PWD"/Output-Case3
+	AgeGridDir="$PWD"/Agegrid-M21-NNR
+	CratonicShapes="$PWD"/Cratonic-Shapes-M21-NNR
+	root_for_Kimb_Data="$PWD"/Kimberlites/M21-NNR
 	
-elif [$CaseNumber -eq 4 ]
+elif [ $CaseNumber -eq 4 ]
 then
-	# Case1Dir=/Users/omer/Documents/Programming/PyGplates/ForPublication/Case1/
-	CaseDir=${CurrentDirectory}/Case4
-	# Case1OutputDir=/Users/omer/Documents/Programming/PyGplates/ForPublication/Output-Case1/
-	CaseOutputDir=${CurrentDirectory}/Output-Case4
-	AgeGridDir=${CurrentDirectory}/Agegrid-M21
-	CratonicShapes=${CurrentDirectory}/Cratonic-Shapes-M21
-	root_for_Kimb_Data=${CurrentDirectory}/Kimberlites/M21
+	CaseDir="$PWD"/Case4
+	echo $CaseDir
+	CaseOutputDir="$PWD"/Output-Case4
+	AgeGridDir="$PWD"/Agegrid-M21
+	CratonicShapes="$PWD"/Cratonic-Shapes-M21
+	root_for_Kimb_Data="$PWD"/Kimberlites/M21
 fi
 
-#For Cases 1,2,3
-# root_for_Kimb_Data=/Users/omer/Documents/Programming/PyGplates/Kimberlites
 
 for Age in `seq 0 20 200`; do	
 echo $Age
 
-# filexyz=${Case4Dir}/Case4-Radial-Heat-Advection-Between-322km-and-CMB-Averaged-${timeMa}-Ma.xyz
-filexyz=${CaseDir}/${CaseNumber}-Radial-Heat-Advection-Between-322km-and-CMB-Averaged-${Age}-Ma.xyz
+filexyz=${CaseDir}/Case${CaseNumber}-Radial-Heat-Advection-Between-322km-and-CMB-Averaged-${Age}-Ma.xyz
 
 echo $filexyz
 
 # Introduce names for grid files and output .ps file to be converted to PDF and/or PNG/JPG
-psfile=${CaseOutputDir}/${CaseNumber}-Radial-Heat-Advection-Between-322km-and-CMB-Averaged-${Age}-Ma.ps
-medianfile=${CaseOutputDir}/${CaseNumber}_Radial-Heat-Advection_between_322km_and_CMB_averaged_${Age}-Ma.median
-gridFile=${CaseOutputDir}/${CaseNumber}_Radial-Heat-Advection_between_322km_and_CMB_averaged_${Age}-Ma.nc
-gridFile_1_0=${CaseOutputDir}/${CaseNumber}_Radial-Heat-Advection_between_322km_and_CMB_averaged_1_and_0_${Age}-Ma.nc
-gridFileMasked=${CaseOutputDir}/${CaseNumber}_Radial-Heat-Advection_between_322km_and_CMB_averaged_${Age}masked-Ma.nc
+psfile=${CaseOutputDir}/Case${CaseNumber}-Radial-Heat-Advection-Between-322km-and-CMB-Averaged-${Age}-Ma.ps
+medianfile=${CaseOutputDir}/Case${CaseNumber}_Radial-Heat-Advection_between_322km_and_CMB_averaged_${Age}-Ma.median
+gridFile=${CaseOutputDir}/Case${CaseNumber}_Radial-Heat-Advection_between_322km_and_CMB_averaged_${Age}-Ma.nc
+gridFile_1_0=${CaseOutputDir}/Case${CaseNumber}_Radial-Heat-Advection_between_322km_and_CMB_averaged_1_and_0_${Age}-Ma.nc
+gridFileMasked=${CaseOutputDir}/Case${CaseNumber}_Radial-Heat-Advection_between_322km_and_CMB_averaged_${Age}masked-Ma.nc
 
 
 # If Reconstruction is M21 Merdith et al., (2021)
@@ -76,17 +65,16 @@ gridFileMasked=${CaseOutputDir}/${CaseNumber}_Radial-Heat-Advection_between_322k
 if [ $CaseNumber -eq 4 ]
 then
 	maskFileRd2=mask_Rd_2${Age}.nc
-	CratonicShapesPlot=${CratonicShapes}/Cratons_reconstructed_M21_${Age}.00Ma.xy
+	CratonicShapesPlot=${CratonicShapes}/Cratonic-Shapes-M21-API5-reconstructed_${Age}.00Ma.xy
 	gmt grdmask -Rd -I0.1 $CratonicShapesPlot -N0/1/1 -G$maskFileRd2 
-	agegrid=${AgeGridDir}/agegrid_final_with_continents_${AgeMa}.grd
+	agegrid=${AgeGridDir}/agegrid_final_with_continents_${Age}.grd
 	gmt blockmedian $filexyz -Rd -I0.1 -V > $medianfile
 	gmt surface $medianfile -I0.1 -R${region} -V -G$gridFile # Resolution is 0.1 deg.
 	gmt grdclip $gridFile -Rd -G$gridFile_1_0 -Sa0.99/1 -Sb0.99/0 -V # Set values equal and above 1 as 1, others as 0.
 	rm  $medianfile # remove temporary grid file
 	gmt grdmath $maskFileRd2 $gridFile_1_0 MUL = $gridFileMasked
 	gmt grdmath $agegrid -0.1 GT = Ocean.grd 
-	KimberlitesXY=${root_for_Kimb_Data}/${Age}Ma_kimberlite_locations-M21.xy
-	
+	KimberlitesXY=${root_for_Kimb_Data}/${Age}_Ma_kimberlite_locations-M21-API5.xy
 fi
 
 maskFile=mask_${timeMa}.nc
