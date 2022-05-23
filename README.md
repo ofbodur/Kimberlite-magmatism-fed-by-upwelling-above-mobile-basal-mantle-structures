@@ -1,7 +1,7 @@
 # The Diamond Route Across Earth’s Mantle
 
 
-![alt text](https://github.com/ofbodur/The-Diamond-Route/blob/main/Case1-180Ma.jpg?raw=true)
+![alt text](https://github.com/ofbodur/The-Diamond-Route/blob/main/Case1-180Ma.png?raw=true)
 
 
 
