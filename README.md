@@ -1,7 +1,7 @@
 # The Diamond Route Across Earth’s Mantle
 
 
-# ![alt text](https://github.com/ofbodur/The-Diamond-Route/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/ofbodur/The-Diamond-Route/blob/main/Output-Case1/Case1-Radial-Heat-Advection-Between-322km-and-CMB-Averaged-180-Ma.pdf?raw=true)
 
 
 
