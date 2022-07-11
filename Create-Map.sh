@@ -52,16 +52,42 @@ fi
 for Age in `seq 0 20 200`; do	
 echo $Age
 
-filexyz=${CaseDir}/Case${CaseNumber}-Radial-Heat-Advection-Between-322km-and-CMB-Averaged-${Age}-Ma.xyz
+# For whole mantle
+# filexyz=${CaseDir}/Case${CaseNumber}-Radial-Heat-Advection-Between-322km-and-CMB-Averaged-${Age}-Ma.xyz
+
+#For Lower mantle only
+# filexyz=${CaseDir}/Case${CaseNumber}-Radial-Heat-Advection-Lower-Mantle-Only-Averaged-${Age}-Ma.xyz
+
+#For Upper mantle only
+filexyz=${CaseDir}/Case${CaseNumber}-Radial-Heat-Advection-Upper-Mantle-Only-Averaged-${Age}-Ma.xyz
 
 echo $filexyz
 
+#For Whole Mantle Only
 # Introduce names for grid files and output .ps file to be converted to PDF and/or PNG/JPG
-psfile=${CaseOutputDir}/Case${CaseNumber}-Radial-Heat-Advection-Between-322km-and-CMB-Averaged-${Age}-Ma.ps
-medianfile=${CaseOutputDir}/Case${CaseNumber}_Radial-Heat-Advection_between_322km_and_CMB_averaged_${Age}-Ma.median
-gridFile=${CaseOutputDir}/Case${CaseNumber}_Radial-Heat-Advection_between_322km_and_CMB_averaged_${Age}-Ma.nc
-gridFile_1_0=${CaseOutputDir}/Case${CaseNumber}_Radial-Heat-Advection_between_322km_and_CMB_averaged_1_and_0_${Age}-Ma.nc
-gridFileMasked=${CaseOutputDir}/Case${CaseNumber}_Radial-Heat-Advection_between_322km_and_CMB_averaged_${Age}masked-Ma.nc
+# psfile=${CaseOutputDir}/Case${CaseNumber}-Radial-Heat-Advection-Between-322km-and-CMB-Averaged-${Age}-Ma.ps
+# medianfile=${CaseOutputDir}/Case${CaseNumber}_Radial-Heat-Advection_between_322km_and_CMB_averaged_${Age}-Ma.median
+# gridFile=${CaseOutputDir}/Case${CaseNumber}_Radial-Heat-Advection_between_322km_and_CMB_averaged_${Age}-Ma.nc
+# gridFile_1_0=${CaseOutputDir}/Case${CaseNumber}_Radial-Heat-Advection_between_322km_and_CMB_averaged_1_and_0_${Age}-Ma.nc
+# gridFileMasked=${CaseOutputDir}/Case${CaseNumber}_Radial-Heat-Advection_between_322km_and_CMB_averaged_${Age}masked-Ma.nc
+
+
+#For Lower Mantle Only
+# Introduce names for grid files and output .ps file to be converted to PDF and/or PNG/JPG
+# psfile=${CaseOutputDir}/Case${CaseNumber}-Radial-Heat-Advection-Lower-Mantle-Only-Averaged-${Age}-Ma.ps
+# medianfile=${CaseOutputDir}/Case${CaseNumber}_Radial-Heat-Advection-Lower-Mantle-Only-Averaged_${Age}-Ma.median
+# gridFile=${CaseOutputDir}/Case${CaseNumber}_Radial-Heat-Advection-Lower-Mantle-Only-Averaged_${Age}-Ma.nc
+# gridFile_1_0=${CaseOutputDir}/Case${CaseNumber}_Radial-Heat-Advection-Lower-Mantle-Only-Averaged_1_and_0_${Age}-Ma.nc
+# gridFileMasked=${CaseOutputDir}/Case${CaseNumber}_Radial-Heat-Advection-Lower-Mantle-Only-Averaged_${Age}masked-Ma.nc
+
+
+#For Upper Mantle Only
+# Introduce names for grid files and output .ps file to be converted to PDF and/or PNG/JPG
+psfile=${CaseOutputDir}/Case${CaseNumber}-Radial-Heat-Advection-Upper-Mantle-Only-Averaged-${Age}-Ma.ps
+medianfile=${CaseOutputDir}/Case${CaseNumber}_Radial-Heat-Advection-Upper-Mantle-Only-Averaged_${Age}-Ma.median
+gridFile=${CaseOutputDir}/Case${CaseNumber}_Radial-Heat-Advection-Upper-Mantle-Only-Averaged_${Age}-Ma.nc
+gridFile_1_0=${CaseOutputDir}/Case${CaseNumber}_Radial-Heat-Advection-Upper-Mantle-Only-Averaged_1_and_0_${Age}-Ma.nc
+gridFileMasked=${CaseOutputDir}/Case${CaseNumber}_Radial-Heat-Advection-Upper-Mantle-Only-Averaged_${Age}masked-Ma.nc
 
 
 if [ $CaseNumber -eq 4 ]
@@ -80,12 +106,13 @@ then
 else
 	maskFileRd2=${maskFileDir}/mask_M21_NNR_${Age}.nc
 	CratonicShapesPlot=${CratonicShapes}/reconstructed_MerdithCratons_${Age}.00Ma.xy
-	gmt grdmask -Rg -I0.1 $CratonicShapesPlot -N0/1/1 -G$maskFileRd2 
+	gmt grdmask -Rd -fc -I0.1 $CratonicShapesPlot -N0/1/1 -G$maskFileRd2  # added -fg
 	agegrid=${AgeGridDir}/agegridsampled_${Age}-Ma.grd
 	gmt blockmedian $filexyz -Rg -I0.1 -V > $medianfile
 	gmt surface $medianfile -I0.1 -R${region} -V -G$gridFile # Resolution is 0.1 deg.
 	gmt grdclip $gridFile -Rg -G$gridFile_1_0 -Sa0.99/1 -Sb0.99/0 -V # Set values equal and above 1 as 1, others as 0.
-	gmt grdmath $maskFileRd2 $gridFile_1_0 MUL = $gridFileMasked
+	gmt grdedit $gridFile_1_0 -Rd -S # change grid format
+	gmt grdmath $maskFileRd2 $gridFile_1_0 MUL = $gridFileMasked # Make sure they have the same format
 	gmt grdmath $agegrid -0.1 GT = Ocean.grd 
 	KimberlitesXY=${root_for_Kimb_Data}/${Age}Ma_kimberlite_locations-M21-NNR.xy
 	
@@ -114,7 +141,7 @@ gmt psbasemap -R${region} -J${proj_map} -Ba90f9/a60f11 -O -V  >> $psfile
 gmt psconvert $psfile -A -Tf
 
 rm $medianfile
-rm $gridFileMasked
+# rm $gridFileMasked
 rm $psfile
 
 done
