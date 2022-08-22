@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpml:FeatureCollection xmlns:gpml="http://www.gplates.org/gplates" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/XMLSchema-instance" gpml:version="1.6.0339" xsi:schemaLocation="http://www.gplates.org/gplates ../xsd/gpml.xsd http://www.opengis.net/gml ../../../gml/current/base">
+    <gml:featureMember>
+        <gpml:Raster>
+            <gpml:identity>GPlates-e195e225-1909-481c-bd86-f5e2f84ba6d2</gpml:identity>
+            <gpml:revision>GPlates-cbc90df2-f8ab-4a54-a4d8-685897732d67</gpml:revision>
+            <gpml:domainSet>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:RectifiedGrid gml:dimension="2">
+                            <gml:limits>
+                                <gml:GridEnvelope>
+                                    <gml:low>0 0 </gml:low>
+                                    <gml:high>3601 1801 </gml:high>
+                                </gml:GridEnvelope>
+                            </gml:limits>
+                            <gml:axisName>longitude</gml:axisName>
+                            <gml:axisName>latitude</gml:axisName>
+                            <gml:origin>
+                                <gml:Point>
+                                    <gml:pos>90.049999999999997 -0.050000000000000003</gml:pos>
+                                </gml:Point>
+                            </gml:origin>
+                            <gml:offsetVector>0.10000000000000001 0 </gml:offsetVector>
+                            <gml:offsetVector>0 -0.10000000000000001 </gml:offsetVector>
+                        </gml:RectifiedGrid>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:RectifiedGrid</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:domainSet>
+            <gpml:rangeSet>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:File>
+                            <gml:rangeParameters>
+                                <gml:CompositeValue>
+                                    <gml:valueComponent>
+                                        <xsi:float>template</xsi:float>
+                                    </gml:valueComponent>
+                                </gml:CompositeValue>
+                            </gml:rangeParameters>
+                            <gml:fileName>Case1_Radial-Heat-Advection_between_322km_and_CMB_averaged_180-Ma.nc</gml:fileName>
+                            <gml:fileStructure></gml:fileStructure>
+                            <gml:mimeType>application/x-netcdf</gml:mimeType>
+                        </gml:File>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:File</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:rangeSet>
+            <gpml:bandNames>
+                <gpml:RasterBandNames>
+                    <gpml:bandName>band_1</gpml:bandName>
+                </gpml:RasterBandNames>
+            </gpml:bandNames>
+        </gpml:Raster>
+    </gml:featureMember>
+</gpml:FeatureCollection>

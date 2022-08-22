@@ -49,7 +49,7 @@ then
 fi
 
 
-for Age in `seq 0 20 200`; do	
+for Age in `seq 0 20 210`; do	
 echo $Age
 
 # For whole mantle
@@ -74,16 +74,16 @@ echo $filexyz
 
 #For Lower Mantle Only
 # Introduce names for grid files and output .ps file to be converted to PDF and/or PNG/JPG
-# psfile=${CaseOutputDir}/Case${CaseNumber}-Radial-Heat-Advection-Lower-Mantle-Only-Averaged-${Age}-Ma.ps
+# psfile=${CaseOutputDir}/Case${CaseNumber}-Radial-Heat-Advection-Lower-Mantle-Only-Averaged-${Age}-Ma-ReviewAug.ps
 # medianfile=${CaseOutputDir}/Case${CaseNumber}_Radial-Heat-Advection-Lower-Mantle-Only-Averaged_${Age}-Ma.median
 # gridFile=${CaseOutputDir}/Case${CaseNumber}_Radial-Heat-Advection-Lower-Mantle-Only-Averaged_${Age}-Ma.nc
 # gridFile_1_0=${CaseOutputDir}/Case${CaseNumber}_Radial-Heat-Advection-Lower-Mantle-Only-Averaged_1_and_0_${Age}-Ma.nc
 # gridFileMasked=${CaseOutputDir}/Case${CaseNumber}_Radial-Heat-Advection-Lower-Mantle-Only-Averaged_${Age}masked-Ma.nc
-
+#
 
 #For Upper Mantle Only
-# Introduce names for grid files and output .ps file to be converted to PDF and/or PNG/JPG
-psfile=${CaseOutputDir}/Case${CaseNumber}-Radial-Heat-Advection-Upper-Mantle-Only-Averaged-${Age}-Ma.ps
+Introduce names for grid files and output .ps file to be converted to PDF and/or PNG/JPG
+psfile=${CaseOutputDir}/Case${CaseNumber}-Radial-Heat-Advection-Upper-Mantle-Only-Averaged-${Age}-Ma-ReviewAug.ps
 medianfile=${CaseOutputDir}/Case${CaseNumber}_Radial-Heat-Advection-Upper-Mantle-Only-Averaged_${Age}-Ma.median
 gridFile=${CaseOutputDir}/Case${CaseNumber}_Radial-Heat-Advection-Upper-Mantle-Only-Averaged_${Age}-Ma.nc
 gridFile_1_0=${CaseOutputDir}/Case${CaseNumber}_Radial-Heat-Advection-Upper-Mantle-Only-Averaged_1_and_0_${Age}-Ma.nc
@@ -118,27 +118,62 @@ else
 	
 fi
 
-
 # Radial Heat Advection Imaging
-gmt grdimage -R${region} -J${proj_map} $gridFile -CColourmap-RHA.cpt -t50 -V -K > $psfile
-gmt psxy $CratonicShapesPlot -R${region} -J${proj_map} -Gblack -O -V -K >> $psfile 
-gmt grdimage -R${region} -J${proj_map} $gridFile -CColourmap-RHA.cpt -t70 -O -V -K >> $psfile
+gmt psxy $CratonicShapesPlot -R${region} -J${proj_map} -Gblack -t30 -V -K > $psfile 
+
+gmt grdimage -R${region} -J${proj_map} $gridFile -CColourmap-RHA.cpt -t30 -O -V -K >> $psfile
 
 
-gmt psxy $CratonicShapesPlot -R${region} -J${proj_map}  -W0.2p,black -Ggreen -O -V -K >> $psfile 
-gmt grdimage -R${region} -J${proj_map} $gridFile -CColourmap-RHA.cpt -t40 -O -V -K >> $psfile
-gmt grdimage -R${region} -J${proj_map} Ocean.grd  -COcean.cpt -t65 -O -V -K >> $psfile
-gmt grdimage -R${region} -J${proj_map} $gridFileMasked -CColourmap-RHA_Masked.cpt -t60 -O -V -K >> $psfile
 
-# Add reconstructed kimberlites
-gmt psxy $KimberlitesXY -R${region} -J${proj_map} -Sc0.17 -W0.3p,black -Gwhite -t5 -O -V -K >> $psfile #1)
-gmt psxy $KimberlitesXY -R${region} -J${proj_map} -Sc0.08 -W0.06p,black -Gmagenta  -t3 -O -V -K >> $psfile #2)
-gmt psxy $KimberlitesXY -R${region} -J${proj_map} -Sc0.03 -W0.06p,black -Gblack -t3 -O -V -K >> $psfile #3)
+# gmt grdimage -R${region} -J${proj_map} $gridFile -CColourmap-RHA.cpt -t70 -O -V -K >> $psfile
+# gmt psxy $CratonicShapesPlot -R${region} -J${proj_map}  -W0.2p,black -Gwhite -O -V -K >> $psfile
+# gmt grdimage -R${region} -J${proj_map} $gridFile -CColourmap-RHA.cpt -t40 -O -V -K >> $psfile
+# gmt grdimage -R${region} -J${proj_map} Ocean.grd  -COcean.cpt -t65 -O -V -K >> $psfile
+# gmt grdimage -R${region} -J${proj_map} $gridFileMasked -CColourmap-RHA_Masked.cpt -t50 -O -V -K >> $psfile
+
+
+# Kimberlites colored by Age
+root_for_Kimb_Data="$PWD"/Kimberlites/M21-NNR
+KimberlitesXY=${root_for_Kimb_Data}/${Age}_Ma_kimberlite_locations-M21-API5-NNR-New.xy
+# USE BELOW LINE FOR AGE CODED COLORS
+# gmt psxy $KimberlitesXY -R${region} -J${proj_map} -Sc0.2 -W1.0p,black -CcolorsKimb.cpt -O -V -K >> $psfile #1)
+# gmt psxy $KimberlitesXY -R${region} -J${proj_map} -Sc0.3 -W1.0p,black -CcolorsKimb_OMER.cpt -O -V -K >> $psfile #1)
+
+
+# USE BELOW FOR CONSTANT COLOR (EXTENDED DATA FIG)
+# gmt psxy $KimberlitesXY -R${region} -J${proj_map} -Sc0.2 -W1.0p,black -CcolorsKimbConstant.cpt -O -V -K >> $psfile #1)
+
+
+# gmt mapproject $KBSlice -R${region} -E -I > KBSlice.xy
+# USE BELOW LINE FOR AGE CODED COLORS
+
+# gmt psxy $KimberlitesXY -R${region} -J${proj_map} -Sc0.2 -W1.0p,black -CcolorsKimb.cpt -O -V -K >> $psfile #1)
+gmt psxy $KimberlitesXY -R${region} -J${proj_map} -Sc0.3 -W0.7p,black -CcolorsKimb_OMER.cpt -O -V -K >> $psfile #1)
+	
+# USE BELOW FOR CONSTANT COLOR (EXTENDED DATA FIG)
+# gmt psxy $KimberlitesXY -R${region} -J${proj_map} -Sc0.2 -W1.0p,black -CcolorsKimbConstant.cpt -O -V -K >> $psfile #1)
+
+
+KBSlice="$PWD"/Cross-Section-Coords/KB-Cross-Sections.xy
+AFSlice="$PWD"/Cross-Section-Coords/AF-Cross-Sections.xy
+#
+# if [ $Age -eq 180 ]
+# then
+	
+# gmt psxy $KBSlice -Rd -J${proj_map} -W0.7p,black -O -V -K >> $psfile #1)
+# gmt psxy $AFSlice -Rd -J${proj_map} -W0.7p,black -O -V -K >> $psfile #1)
+# fi
+# continue
+# Add reconstructed kimberlites - OLD
+# gmt psxy $KimberlitesXY -R${region} -J${proj_map} -Sc0.17 -W0.3p,black -Gwhite -t5 -O -V -K >> $psfile #1)
+# gmt psxy $KimberlitesXY -R${region} -J${proj_map} -Sc0.08 -W0.06p,black -Gmagenta  -t3 -O -V -K >> $psfile #2)
+# gmt psxy $KimberlitesXY -R${region} -J${proj_map} -Sc0.03 -W0.06p,black -Gblack -t3 -O -V -K >> $psfile #3)
 
 
 gmt psbasemap -R${region} -J${proj_map} -Ba90f9/a60f11 -O -V  >> $psfile
 
 gmt psconvert $psfile -A -Tf
+gmt psconvert $psfile -A -Tg
 
 rm $medianfile
 # rm $gridFileMasked
