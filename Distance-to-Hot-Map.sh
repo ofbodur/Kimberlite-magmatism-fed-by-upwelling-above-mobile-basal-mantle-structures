@@ -8,7 +8,7 @@
 region=g
 proj_map=N0/12
 
-CaseNumber=5 # Select the case number. Set it to 4 for Tomographic models
+CaseNumber=4 # Select the case number. Set it to 4 for Tomographic models
 
 
 # psfile=Reconstructed-Kimberlites-for-the-last-210-Myr-M21-NNR-SMEAN2Background-V2.ps
@@ -70,6 +70,7 @@ for Age in `seq 180 20 200`; do
 
 # TomoGrid=s40rts_2867_Distance_to_Hot.nc # 2775 km depth slice
 # TomoGrid=SEMUCB-WM1_2867_Distance_to_Hot.nc # 2867 km depth slice
+TomoGrid=SEMUCB-WM1_2867_lmax_12_Distance_to_Hot.nc # 2867 km depth slice, lmax-12 spherical harmonic deg.
 # TomoGrid=s40rts_2867_Distance_to_Hot.nc # 2867 km depth slice
 # TomoGrid=savani_2818_Distance_to_Hot.nc
 # TomoGrid=GypsumS_2900_Distance_to_Hot.nc
@@ -77,15 +78,17 @@ for Age in `seq 180 20 200`; do
 # TomoGrid=Case1_WholeMantle_180_Ma_Distance_to_Hot.nc
 # TomoGrid=Case2_WholeMantle_180_Ma_Distance_to_Hot.nc
 # TomoGrid=Case3_WholeMantle_180_Ma_Distance_to_Hot.nc
-TomoGrid=Case4_WholeMantle_180_Ma_Distance_to_Hot.nc
+# TomoGrid=Case4_WholeMantle_180_Ma_Distance_to_Hot.nc
 
 # psfile=180Ma-Distance-to-Hot-Structures-Map-SEMUCB-WM1-${Age}-Ma-GreenKimbs.ps
+psfile=180Ma-Distance-to-Hot-Structures-Map-SEMUCB-WM1-${Age}-Ma-GreenKimbs-lmax-12deg.ps
+
 # psfile=180Ma-Distance-to-Hot-Structures-Map-S40RTS-${Age}-Ma-GreenKimbs.ps
 # psfile=180Ma-Distance-to-Hot-Structures-Map-GyPSuM-S-${Age}-Ma-GreenKimbs.ps
 # psfile=180Ma-Distance-to-Hot-Structures-Map-Case1-WholeMantle-${Age}-Ma-GreenKimbs.ps
 # psfile=180Ma-Distance-to-Hot-Structures-Map-Case2-WholeMantle-${Age}-Ma-GreenKimbs.ps
 # psfile=180Ma-Distance-to-Hot-Structures-Map-Case3-WholeMantle-${Age}-Ma-GreenKimbs.ps
-psfile=180Ma-Distance-to-Hot-Structures-Map-Case4-WholeMantle-${Age}-Ma-GreenKimbs.ps
+# psfile=180Ma-Distance-to-Hot-Structures-Map-Case4-WholeMantle-${Age}-Ma-GreenKimbs.ps
 
 
 # gmt psxy $CratonicShapesPlot -R${region} -J${proj_map} -Gblack -t30 -V -K > $psfile
@@ -114,13 +117,13 @@ fi
 # gmt psxy $KimberlitesXY -R${region} -J${proj_map} -Sc0.03 -W0.06p,black -Gblack -t3 -O -V -K >> $psfile #3)
 
 #FOR M21 
-# CratonicShapesPlot=${CratonicShapes}/Cratons_reconstructed_${Age}.00Ma.xy
+CratonicShapesPlot=${CratonicShapes}/Cratons_reconstructed_${Age}.00Ma.xy
 
 #FOR M21-NNR 
 # CratonicShapesPlot=${CratonicShapes}/reconstructed_MerdithCratons_${Age}.00Ma.xy
 
 #FOR M21-NNR-Case4
-CratonicShapesPlot=${CratonicShapes}/CratonicBlocksForCase4/reconstructed_${Age}.00Ma.xy
+# CratonicShapesPlot=${CratonicShapes}/CratonicBlocksForCase4/reconstructed_${Age}.00Ma.xy
 
 
 # gmt grdimage -R${region} -J${proj_map} ${TomoGrid} -CDistancecolors.cpt -V -K > $psfile
