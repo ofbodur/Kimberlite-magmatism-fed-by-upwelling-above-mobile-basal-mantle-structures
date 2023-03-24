@@ -71,6 +71,7 @@ for Age in `seq 180 20 200`; do
 # TomoGrid=s40rts_2867_Distance_to_Hot.nc # 2775 km depth slice
 # TomoGrid=SEMUCB-WM1_2867_Distance_to_Hot.nc # 2867 km depth slice
 TomoGrid=SEMUCB-WM1_2867_lmax_12_Distance_to_Hot.nc # 2867 km depth slice, lmax-12 spherical harmonic deg.
+
 # TomoGrid=s40rts_2867_Distance_to_Hot.nc # 2867 km depth slice
 # TomoGrid=savani_2818_Distance_to_Hot.nc
 # TomoGrid=GypsumS_2900_Distance_to_Hot.nc
@@ -81,7 +82,7 @@ TomoGrid=SEMUCB-WM1_2867_lmax_12_Distance_to_Hot.nc # 2867 km depth slice, lmax-
 # TomoGrid=Case4_WholeMantle_180_Ma_Distance_to_Hot.nc
 
 # psfile=180Ma-Distance-to-Hot-Structures-Map-SEMUCB-WM1-${Age}-Ma-GreenKimbs.ps
-psfile=180Ma-Distance-to-Hot-Structures-Map-SEMUCB-WM1-${Age}-Ma-GreenKimbs-lmax-12deg.ps
+psfile=180Ma-Distance-to-Hot-Structures-Map-SEMUCB-WM1-${Age}-Ma-GreenKimbs-lmax-12deg_only_0_05percent.ps
 
 # psfile=180Ma-Distance-to-Hot-Structures-Map-S40RTS-${Age}-Ma-GreenKimbs.ps
 # psfile=180Ma-Distance-to-Hot-Structures-Map-GyPSuM-S-${Age}-Ma-GreenKimbs.ps
@@ -132,7 +133,11 @@ gmt psxy $CratonicShapesPlot -R${region} -J${proj_map}  -Gblack -t70 -O -V -K >>
 
 gmt psxy $KimberlitesXY -R${region} -J${proj_map} -Sc0.2 -W0.2p,black -CcolorsKimb_OMER.cpt -O -V -K >> $psfile #1)
 
-# gmt grdcontour -R${region} -J${proj_map} ${TomoGrid} -A+2 -C+5 -O -V -K >> $psfile
+# gmt grdcontour -R${region} -J${proj_map} SEMUCB-WM1_2867_lmax_12.nc -A+-0.1 -O -V -K >> $psfile
+
+# gmt grdcontour -R${region} -J${proj_map} SEMUCB-WM1_2867_lmax_12.nc -A+-0.15 -O -V -K >> $psfile
+
+gmt grdcontour -R${region} -J${proj_map} SEMUCB-WM1_2867_lmax_12.nc -A+-0.05 -O -V -K >> $psfile
 
 gmt psbasemap -R${region} -J${proj_map} -Ba90f9/a60f11 -O -V  >> $psfile
 
