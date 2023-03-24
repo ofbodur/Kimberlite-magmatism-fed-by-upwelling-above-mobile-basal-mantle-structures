@@ -16,4 +16,8 @@ This supplement aims at providing users to be able access model outputs as well 
 
 3. "Distance-to-Hot-Map.sh" allows users to create maps of distance to hot structures in tomographic models or distance to RHA field in geodynamic models Cases1-4. User can recreate Extended Data Figure 3a and Extended Data Figure 3 (left column). In its current version, it takes SEMUCB-WM1 tomographic model filtered to maximum spherical harmonic degree 12 (l_max_=12), calculates and maps the angular distance away from the contour dVs=-0.1% towards positive (colder) regions. 
 
+4. Statistical analysis folder
+
+5. Radial Heat Advection folder
+
 Please send me email of your questions or requests regarding this repository at ofbodur@gmail.com (permanent email adrress). 
