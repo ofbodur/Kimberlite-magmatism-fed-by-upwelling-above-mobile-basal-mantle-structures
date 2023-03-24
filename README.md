@@ -1,8 +1,8 @@
 # ¬Kimberlite magmatism fed by upwelling above mobile basal mantle structures
 
 
-![alt text](https://github.com/ofbodur/The-Diamond-Route/blob/Output-Case1/Case1-Radial-Heat-Advection-Between-322km-and-CMB-Averaged-180-Ma-Regular.png?raw=True)
 
+![Case1-Radial-Heat-Advection-Between-322km-and-CMB-Averaged-180-Ma-Regular](https://user-images.githubusercontent.com/10364530/227427540-a05fb899-b3b5-4df8-925d-ebf5fe7a36f3.png)
 
 
 ### This is a supplement to the manuscript # NGS-2022-03-00591 currently in revision in Nature Geoscience.
