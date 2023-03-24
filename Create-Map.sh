@@ -56,10 +56,10 @@ echo $Age
 filexyz=${CaseDir}/Case${CaseNumber}-Radial-Heat-Advection-Between-322km-and-CMB-Averaged-${Age}-Ma.xyz
 
 #For Lower mantle only
-# filexyz=${CaseDir}/Case${CaseNumber}-Radial-Heat-Advection-Lower-Mantle-Only-Averaged-${Age}-Ma.xyz
+# filexyz=${CaseDir}/LowerMantle/Case${CaseNumber}-Radial-Heat-Advection-Lower-Mantle-Only-Averaged-${Age}-Ma.xyz
 
 #For Upper mantle only
-#filexyz=${CaseDir}/Case${CaseNumber}-Radial-Heat-Advection-Upper-Mantle-Only-Averaged-${Age}-Ma.xyz
+#filexyz=${CaseDir}/UpperMantle/Case${CaseNumber}-Radial-Heat-Advection-Upper-Mantle-Only-Averaged-${Age}-Ma.xyz
 
 echo $filexyz
 

@@ -15,3 +15,5 @@ This supplement aims at providing users to be able access model outputs as well 
 2. "Figure1.sh" allows users to recreate Figure 1a,b. Users need to choose the reconstruction model (M21 or M21 NNR) from the line below: ``` CaseNumber=4 # 4 for M21 (1 for M21-NNR) ```. The script uses different colormaps for tomographic model and age of reconstructed kimberlies, which are also provided in the main directory.
 
 3. "Distance-to-Hot-Map.sh" allows users to create maps of distance to hot structures in tomographic models or distance to RHA field in geodynamic models Cases1-4. User can recreate Extended Data Figure 3a and Extended Data Figure 3 (left column). In its current version, it takes SEMUCB-WM1 tomographic model filtered to maximum spherical harmonic degree 12 (l_max_=12), calculates and maps the angular distance away from the contour dVs=-0.1% towards positive (colder) regions. 
+
+Please send me email of your questions or requests regarding this repository at ofbodur@gmail.com (permanent email adrress). 
