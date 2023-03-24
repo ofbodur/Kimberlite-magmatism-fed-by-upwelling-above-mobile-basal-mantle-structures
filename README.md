@@ -1,4 +1,4 @@
-# ¬Kimberlite magmatism fed by upwelling above mobile basal mantle structures
+# Kimberlite magmatism fed by upwelling above mobile basal mantle structures
 
 
 
