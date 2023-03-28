@@ -1,0 +1,24 @@
+<VTKFile type="PUnstructuredGrid" version="1.0" byte_order="LittleEndian" header_type="UInt64">
+  <PUnstructuredGrid GhostLevel="1">
+    <FieldData>
+      <DataArray type="Float64" Name="TimeValue" NumberOfTuples="1" format="binary" RangeMin="45" RangeMax="45">
+        CAAAAAAAAAAAAAAAAIBGQA==
+      </DataArray>
+    </FieldData>
+    <PPoints>
+      <PDataArray type="Float32" Name="Points" NumberOfComponents="3"/>
+    </PPoints>
+    <Piece Source="Cratonic-Shapes_45/Cratonic-Shapes_45_0.vtu"/>
+    <Piece Source="Cratonic-Shapes_45/Cratonic-Shapes_45_1.vtu"/>
+    <Piece Source="Cratonic-Shapes_45/Cratonic-Shapes_45_2.vtu"/>
+    <Piece Source="Cratonic-Shapes_45/Cratonic-Shapes_45_3.vtu"/>
+    <Piece Source="Cratonic-Shapes_45/Cratonic-Shapes_45_4.vtu"/>
+    <Piece Source="Cratonic-Shapes_45/Cratonic-Shapes_45_5.vtu"/>
+    <Piece Source="Cratonic-Shapes_45/Cratonic-Shapes_45_6.vtu"/>
+    <Piece Source="Cratonic-Shapes_45/Cratonic-Shapes_45_7.vtu"/>
+    <Piece Source="Cratonic-Shapes_45/Cratonic-Shapes_45_8.vtu"/>
+    <Piece Source="Cratonic-Shapes_45/Cratonic-Shapes_45_9.vtu"/>
+    <Piece Source="Cratonic-Shapes_45/Cratonic-Shapes_45_10.vtu"/>
+    <Piece Source="Cratonic-Shapes_45/Cratonic-Shapes_45_11.vtu"/>
+  </PUnstructuredGrid>
+</VTKFile>

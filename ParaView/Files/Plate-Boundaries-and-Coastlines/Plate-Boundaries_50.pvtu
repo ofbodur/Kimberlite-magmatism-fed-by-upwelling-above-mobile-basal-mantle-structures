@@ -1,0 +1,18 @@
+<VTKFile type="PUnstructuredGrid" version="1.0" byte_order="LittleEndian" header_type="UInt64">
+  <PUnstructuredGrid GhostLevel="1">
+    <FieldData>
+      <DataArray type="Float64" Name="TimeValue" NumberOfTuples="1" format="binary" RangeMin="50" RangeMax="50">
+        CAAAAAAAAAAAAAAAAABJQA==
+      </DataArray>
+    </FieldData>
+    <PPoints>
+      <PDataArray type="Float32" Name="Points" NumberOfComponents="3"/>
+    </PPoints>
+    <Piece Source="Plate-Boundaries_50/Plate-Boundaries_50_0.vtu"/>
+    <Piece Source="Plate-Boundaries_50/Plate-Boundaries_50_1.vtu"/>
+    <Piece Source="Plate-Boundaries_50/Plate-Boundaries_50_2.vtu"/>
+    <Piece Source="Plate-Boundaries_50/Plate-Boundaries_50_3.vtu"/>
+    <Piece Source="Plate-Boundaries_50/Plate-Boundaries_50_4.vtu"/>
+    <Piece Source="Plate-Boundaries_50/Plate-Boundaries_50_5.vtu"/>
+  </PUnstructuredGrid>
+</VTKFile>

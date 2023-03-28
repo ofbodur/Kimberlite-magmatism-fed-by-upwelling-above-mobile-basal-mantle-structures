@@ -1,0 +1,24 @@
+<VTKFile type="PUnstructuredGrid" version="1.0" byte_order="LittleEndian" header_type="UInt64">
+  <PUnstructuredGrid GhostLevel="1">
+    <FieldData>
+      <DataArray type="Float64" Name="TimeValue" NumberOfTuples="1" format="binary" RangeMin="47" RangeMax="47">
+        CAAAAAAAAAAAAAAAAIBHQA==
+      </DataArray>
+    </FieldData>
+    <PPoints>
+      <PDataArray type="Float32" Name="Points" NumberOfComponents="3"/>
+    </PPoints>
+    <Piece Source="Plate-Boundaries_47/Plate-Boundaries_47_0.vtu"/>
+    <Piece Source="Plate-Boundaries_47/Plate-Boundaries_47_1.vtu"/>
+    <Piece Source="Plate-Boundaries_47/Plate-Boundaries_47_2.vtu"/>
+    <Piece Source="Plate-Boundaries_47/Plate-Boundaries_47_3.vtu"/>
+    <Piece Source="Plate-Boundaries_47/Plate-Boundaries_47_4.vtu"/>
+    <Piece Source="Plate-Boundaries_47/Plate-Boundaries_47_5.vtu"/>
+    <Piece Source="Plate-Boundaries_47/Plate-Boundaries_47_6.vtu"/>
+    <Piece Source="Plate-Boundaries_47/Plate-Boundaries_47_7.vtu"/>
+    <Piece Source="Plate-Boundaries_47/Plate-Boundaries_47_8.vtu"/>
+    <Piece Source="Plate-Boundaries_47/Plate-Boundaries_47_9.vtu"/>
+    <Piece Source="Plate-Boundaries_47/Plate-Boundaries_47_10.vtu"/>
+    <Piece Source="Plate-Boundaries_47/Plate-Boundaries_47_11.vtu"/>
+  </PUnstructuredGrid>
+</VTKFile>
