@@ -2,11 +2,11 @@
 
 
 ![Snapshot-180Ma](https://user-images.githubusercontent.com/10364530/228105477-f059e80d-89d5-4dc3-b978-b3845c862098.png)
-A ParaView image at reduced resolution showing broad mantle upwellings colored by depth (warm colors), subduction zones and sinking slabs colored by depth (cold colors), reconstructed cratons in grey and kimberlites in green columns extending from core-mantle boundary to eruption sites.
+Figure 1. A snapshot of Case1 mantle flow model at 180 Ma at reduced resolution, showing broad mantle upwellings colored by depth (warm colors), subduction zones and sinking slabs colored by depth (cold colors), reconstructed cratons in grey and kimberlites in green columns extending from core-mantle boundary to eruption sites.
 
 
 ![Case1-Radial-Heat-Advection-Between-322km-and-CMB-Averaged-180-Ma-Regular](https://user-images.githubusercontent.com/10364530/227427540-a05fb899-b3b5-4df8-925d-ebf5fe7a36f3.png)
-
+Figure 2. Broad mantle upwelling at 180 Ma for Case 1, averaged for depths between 322 km and 2,860 km, overlain by reconstructed cratonic blocks (grey polygons) and kimberlites (green circles).
 
 ### This is a supplement to the manuscript # NGS-2022-03-00591 currently in revision in Nature Geoscience.
  
