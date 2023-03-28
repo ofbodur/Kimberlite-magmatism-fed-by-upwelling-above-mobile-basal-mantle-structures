@@ -2,7 +2,7 @@
 
 
 ![Snapshot-180Ma](https://user-images.githubusercontent.com/10364530/228105477-f059e80d-89d5-4dc3-b978-b3845c862098.png)
-
+A ParaView image at reduced resolution showing broad mantle upwellings colored by depth (warm colors), subduction zones and sinking slabs colored by depth (cold colors), reconstructed cratons in grey and kimberlites in green columns extending from core-mantle boundary to eruption sites.
 
 
 ![Case1-Radial-Heat-Advection-Between-322km-and-CMB-Averaged-180-Ma-Regular](https://user-images.githubusercontent.com/10364530/227427540-a05fb899-b3b5-4df8-925d-ebf5fe7a36f3.png)
@@ -19,8 +19,8 @@ This supplement aims at providing users to be able access model outputs as well 
 
 3. "Distance-to-Hot-Map.sh" allows users to create maps of distance to hot structures in tomographic models or distance to RHA field in geodynamic models Cases1-4. User can recreate Extended Data Figure 3a and Extended Data Figure 3 (left column). In its current version, it takes SEMUCB-WM1 tomographic model filtered to maximum spherical harmonic degree 12 (l_max_=12), calculates and maps the angular distance away from the contour dVs=-0.1% towards positive (colder) regions. 
 
-4. Statistical analysis folder
+4. "Statistical-Analysis" allows users to apply the Kolmogorov-Smirnov statistical test on Mantle flow cases (Cases1-4) and seismic tomographic model cross-sections at depth. It calculates distance to hot structures, compares it with random points spread on constrainted regions (cratons in our case) and applies K-S statistical tests to determine its uniqueness or non-randomness which is presented as success rate(%).
 
-5. Radial Heat Advection folder
+5. "ParaView" folder includes a state file "Case1-Radial-Heat-Advection-Simplified.pvsm" located in the subfolder "State-File" that can uploads broad mantle upwellings, slabs, reconsturcted cratons, plate boundaries and kimberlite eruptions shown as columns and sampled with a buffer of 10 Myr before/after eruption age shown at eveyr 20 Myr since 200 Ma (million years ago).
 
-Please send me email of your questions or requests regarding this repository at ofbodur@gmail.com (permanent email adrress). 
+Please send me email of your questions or requests regarding this repository at omer@uow.edu.au (temporary) or ofbodur@gmail.com (permanent email adrress). 
