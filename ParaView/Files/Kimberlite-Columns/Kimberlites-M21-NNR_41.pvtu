@@ -1,0 +1,13 @@
+<VTKFile type="PUnstructuredGrid" version="1.0" byte_order="LittleEndian" header_type="UInt64">
+  <PUnstructuredGrid GhostLevel="1">
+    <FieldData>
+      <DataArray type="Float64" Name="TimeValue" NumberOfTuples="1" format="binary" RangeMin="41" RangeMax="41">
+        CAAAAAAAAAAAAAAAAIBEQA==
+      </DataArray>
+    </FieldData>
+    <PPoints>
+      <PDataArray type="Float64" Name="Points" NumberOfComponents="3"/>
+    </PPoints>
+    <Piece Source="Kimberlites-M21-NNR_41/Kimberlites-M21-NNR_41_0.vtu"/>
+  </PUnstructuredGrid>
+</VTKFile>

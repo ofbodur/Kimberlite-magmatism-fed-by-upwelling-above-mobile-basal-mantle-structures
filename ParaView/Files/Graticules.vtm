@@ -1,0 +1,21 @@
+<VTKFile type="vtkMultiBlockDataSet" version="1.0" byte_order="LittleEndian" header_type="UInt64">
+  <vtkMultiBlockDataSet>
+    <DataSet index="0" file="Graticules/Graticules_0_0.vtu"/>
+    <DataSet index="1" file="Graticules/Graticules_1_1.vtu"/>
+    <DataSet index="2" file="Graticules/Graticules_2_2.vtu"/>
+    <DataSet index="3" file="Graticules/Graticules_3_3.vtu"/>
+    <DataSet index="4" file="Graticules/Graticules_4_4.vtu"/>
+    <DataSet index="5" file="Graticules/Graticules_5_5.vtu"/>
+    <DataSet index="6" file="Graticules/Graticules_6_6.vtu"/>
+    <DataSet index="7" file="Graticules/Graticules_7_7.vtu"/>
+    <DataSet index="8" file="Graticules/Graticules_8_8.vtu"/>
+    <DataSet index="9" file="Graticules/Graticules_9_9.vtu"/>
+    <DataSet index="10" file="Graticules/Graticules_10_10.vtu"/>
+    <DataSet index="11" file="Graticules/Graticules_11_11.vtu"/>
+  </vtkMultiBlockDataSet>
+  <FieldData>
+    <DataArray type="Float64" Name="TimeValue" NumberOfTuples="1" format="binary" RangeMin="0" RangeMax="0">
+      CAAAAAAAAAAAAAAAAAAAAA==
+    </DataArray>
+  </FieldData>
+</VTKFile>
