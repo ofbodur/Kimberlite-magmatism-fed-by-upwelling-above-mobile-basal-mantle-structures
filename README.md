@@ -8,7 +8,7 @@ Figure 1. A snapshot of Case1 mantle flow model at 180 Ma at reduced resolution,
 ![Case1-Radial-Heat-Advection-Between-322km-and-CMB-Averaged-180-Ma-Regular](https://user-images.githubusercontent.com/10364530/227427540-a05fb899-b3b5-4df8-925d-ebf5fe7a36f3.png)
 Figure 2. Broad mantle upwelling at 180 Ma for Case 1, averaged for depths between 322 km and 2,860 km, overlain by reconstructed cratonic blocks (grey polygons) and kimberlites (green circles).
 
-### This is a supplement to the manuscript # NGS-2022-03-00591 currently in revision in Nature Geoscience.
+### This is a supplement to the paper entitled "Kimberlite magmatism fed by upwelling above mobile basal mantle structures" published in Nature Geoscience.
  
 This supplement aims at providing users to be able access model outputs as well as to reproduce maps and 3-D images of radial heat advection (RHA). All bash scripts are provided in the main directory.
 
